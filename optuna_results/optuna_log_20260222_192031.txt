@@ -1,0 +1,1489 @@
+[I 2026-02-23 17:27:26,262] A new study created in memory with name: no-name-54c88623-f989-4602-95ca-dd2e566ac1ee
+
+🚀 Starting Hyperparameter Search
+Total Trials: 25
+
+
+============================================================
+🔎 Trial 1/25 STARTED
+============================================================
+Arch Type: hourglass
+Architecture: [1024, 1024]
+Dropout: 0.279 | LR: 0.00045 | WD: 0.000003
+
+📂 Fold 1/3
+Parameters: 1,872,911
+Epoch 01/40 | Train Acc: 0.5050 | Val Acc: 0.5845
+Epoch 02/40 | Train Acc: 0.6226 | Val Acc: 0.6472
+Epoch 03/40 | Train Acc: 0.6588 | Val Acc: 0.6806
+Epoch 04/40 | Train Acc: 0.6787 | Val Acc: 0.6969
+Epoch 05/40 | Train Acc: 0.6892 | Val Acc: 0.7072
+Epoch 06/40 | Train Acc: 0.6992 | Val Acc: 0.7137
+Epoch 07/40 | Train Acc: 0.7047 | Val Acc: 0.7169
+Epoch 08/40 | Train Acc: 0.7104 | Val Acc: 0.7219
+Epoch 09/40 | Train Acc: 0.7101 | Val Acc: 0.7229
+Epoch 10/40 | Train Acc: 0.7140 | Val Acc: 0.7242
+Epoch 11/40 | Train Acc: 0.7213 | Val Acc: 0.7349
+Epoch 12/40 | Train Acc: 0.7288 | Val Acc: 0.7347
+Epoch 13/40 | Train Acc: 0.7360 | Val Acc: 0.7394
+Epoch 14/40 | Train Acc: 0.7444 | Val Acc: 0.7457
+Epoch 15/40 | Train Acc: 0.7508 | Val Acc: 0.7581
+Epoch 16/40 | Train Acc: 0.7606 | Val Acc: 0.7552
+Epoch 17/40 | Train Acc: 0.7675 | Val Acc: 0.7589
+Epoch 18/40 | Train Acc: 0.7715 | Val Acc: 0.7664
+Epoch 19/40 | Train Acc: 0.7768 | Val Acc: 0.7662
+Epoch 20/40 | Train Acc: 0.7774 | Val Acc: 0.7675
+Epoch 21/40 | Train Acc: 0.7820 | Val Acc: 0.7710
+Epoch 22/40 | Train Acc: 0.7899 | Val Acc: 0.7728
+Epoch 23/40 | Train Acc: 0.7923 | Val Acc: 0.7761
+Epoch 24/40 | Train Acc: 0.7938 | Val Acc: 0.7765
+Epoch 25/40 | Train Acc: 0.7954 | Val Acc: 0.7768
+Epoch 26/40 | Train Acc: 0.7973 | Val Acc: 0.7790 [SWA]
+Epoch 27/40 | Train Acc: 0.7972 | Val Acc: 0.7804 [SWA]
+Epoch 28/40 | Train Acc: 0.7991 | Val Acc: 0.7808 [SWA]
+Epoch 29/40 | Train Acc: 0.8012 | Val Acc: 0.7804 [SWA]
+Epoch 30/40 | Train Acc: 0.8016 | Val Acc: 0.7813 [SWA]
+Epoch 31/40 | Train Acc: 0.8029 | Val Acc: 0.7819 [SWA]
+Epoch 32/40 | Train Acc: 0.8051 | Val Acc: 0.7812 [SWA]
+Epoch 33/40 | Train Acc: 0.8036 | Val Acc: 0.7816 [SWA]
+Epoch 34/40 | Train Acc: 0.8046 | Val Acc: 0.7822 [SWA]
+Epoch 35/40 | Train Acc: 0.8100 | Val Acc: 0.7828 [SWA]
+Epoch 36/40 | Train Acc: 0.8071 | Val Acc: 0.7835 [SWA]
+Epoch 37/40 | Train Acc: 0.8109 | Val Acc: 0.7839 [SWA]
+Epoch 38/40 | Train Acc: 0.8110 | Val Acc: 0.7844 [SWA]
+Epoch 39/40 | Train Acc: 0.8137 | Val Acc: 0.7845 [SWA]
+Epoch 40/40 | Train Acc: 0.8141 | Val Acc: 0.7849 [SWA]
+✅ Fold 1 Best Val Acc: 0.7849
+
+📂 Fold 2/3
+Parameters: 1,872,911
+Epoch 01/40 | Train Acc: 0.5170 | Val Acc: 0.5964
+Epoch 02/40 | Train Acc: 0.6239 | Val Acc: 0.6603
+Epoch 03/40 | Train Acc: 0.6543 | Val Acc: 0.6849
+Epoch 04/40 | Train Acc: 0.6739 | Val Acc: 0.7016
+Epoch 05/40 | Train Acc: 0.6911 | Val Acc: 0.7062
+Epoch 06/40 | Train Acc: 0.6974 | Val Acc: 0.7137
+Epoch 07/40 | Train Acc: 0.7024 | Val Acc: 0.7168
+Epoch 08/40 | Train Acc: 0.7062 | Val Acc: 0.7208
+Epoch 09/40 | Train Acc: 0.7097 | Val Acc: 0.7228
+Epoch 10/40 | Train Acc: 0.7109 | Val Acc: 0.7233
+Epoch 11/40 | Train Acc: 0.7182 | Val Acc: 0.7301
+Epoch 12/40 | Train Acc: 0.7267 | Val Acc: 0.7347
+Epoch 13/40 | Train Acc: 0.7330 | Val Acc: 0.7435
+Epoch 14/40 | Train Acc: 0.7459 | Val Acc: 0.7490
+Epoch 15/40 | Train Acc: 0.7541 | Val Acc: 0.7567
+Epoch 16/40 | Train Acc: 0.7607 | Val Acc: 0.7583
+Epoch 17/40 | Train Acc: 0.7662 | Val Acc: 0.7630
+Epoch 18/40 | Train Acc: 0.7702 | Val Acc: 0.7679
+Epoch 19/40 | Train Acc: 0.7754 | Val Acc: 0.7693
+Epoch 20/40 | Train Acc: 0.7815 | Val Acc: 0.7720
+Epoch 21/40 | Train Acc: 0.7836 | Val Acc: 0.7715
+Epoch 22/40 | Train Acc: 0.7864 | Val Acc: 0.7750
+Epoch 23/40 | Train Acc: 0.7902 | Val Acc: 0.7765
+Epoch 24/40 | Train Acc: 0.7918 | Val Acc: 0.7771
+Epoch 25/40 | Train Acc: 0.7915 | Val Acc: 0.7792
+Epoch 26/40 | Train Acc: 0.7959 | Val Acc: 0.7802 [SWA]
+Epoch 27/40 | Train Acc: 0.7956 | Val Acc: 0.7807 [SWA]
+Epoch 28/40 | Train Acc: 0.7948 | Val Acc: 0.7811 [SWA]
+Epoch 29/40 | Train Acc: 0.7975 | Val Acc: 0.7804 [SWA]
+Epoch 30/40 | Train Acc: 0.7957 | Val Acc: 0.7805 [SWA]
+Epoch 31/40 | Train Acc: 0.7984 | Val Acc: 0.7815 [SWA]
+Epoch 32/40 | Train Acc: 0.8017 | Val Acc: 0.7814 [SWA]
+Epoch 33/40 | Train Acc: 0.8032 | Val Acc: 0.7822 [SWA]
+Epoch 34/40 | Train Acc: 0.8053 | Val Acc: 0.7823 [SWA]
+Epoch 35/40 | Train Acc: 0.8057 | Val Acc: 0.7830 [SWA]
+Epoch 36/40 | Train Acc: 0.8073 | Val Acc: 0.7834 [SWA]
+Epoch 37/40 | Train Acc: 0.8115 | Val Acc: 0.7840 [SWA]
+Epoch 38/40 | Train Acc: 0.8085 | Val Acc: 0.7841 [SWA]
+Epoch 39/40 | Train Acc: 0.8122 | Val Acc: 0.7844 [SWA]
+Epoch 40/40 | Train Acc: 0.8114 | Val Acc: 0.7851 [SWA]
+✅ Fold 2 Best Val Acc: 0.7851
+
+📂 Fold 3/3
+Parameters: 1,872,911
+Epoch 01/40 | Train Acc: 0.5075 | Val Acc: 0.5969
+Epoch 02/40 | Train Acc: 0.6250 | Val Acc: 0.6582
+Epoch 03/40 | Train Acc: 0.6592 | Val Acc: 0.6800
+Epoch 04/40 | Train Acc: 0.6796 | Val Acc: 0.6968
+Epoch 05/40 | Train Acc: 0.6901 | Val Acc: 0.7016
+Epoch 06/40 | Train Acc: 0.7001 | Val Acc: 0.7096
+Epoch 07/40 | Train Acc: 0.7036 | Val Acc: 0.7154
+Epoch 08/40 | Train Acc: 0.7102 | Val Acc: 0.7179
+Epoch 09/40 | Train Acc: 0.7136 | Val Acc: 0.7203
+Epoch 10/40 | Train Acc: 0.7110 | Val Acc: 0.7208
+Epoch 11/40 | Train Acc: 0.7181 | Val Acc: 0.7289
+Epoch 12/40 | Train Acc: 0.7335 | Val Acc: 0.7352
+Epoch 13/40 | Train Acc: 0.7413 | Val Acc: 0.7468
+Epoch 14/40 | Train Acc: 0.7483 | Val Acc: 0.7466
+Epoch 15/40 | Train Acc: 0.7592 | Val Acc: 0.7540
+Epoch 16/40 | Train Acc: 0.7642 | Val Acc: 0.7600
+Epoch 17/40 | Train Acc: 0.7685 | Val Acc: 0.7649
+Epoch 18/40 | Train Acc: 0.7745 | Val Acc: 0.7672
+Epoch 19/40 | Train Acc: 0.7800 | Val Acc: 0.7644
+Epoch 20/40 | Train Acc: 0.7828 | Val Acc: 0.7718
+Epoch 21/40 | Train Acc: 0.7891 | Val Acc: 0.7705
+Epoch 22/40 | Train Acc: 0.7907 | Val Acc: 0.7736
+Epoch 23/40 | Train Acc: 0.7930 | Val Acc: 0.7763
+Epoch 24/40 | Train Acc: 0.7979 | Val Acc: 0.7758
+Epoch 25/40 | Train Acc: 0.7940 | Val Acc: 0.7768
+Epoch 26/40 | Train Acc: 0.8004 | Val Acc: 0.7791 [SWA]
+Epoch 27/40 | Train Acc: 0.7982 | Val Acc: 0.7799 [SWA]
+Epoch 28/40 | Train Acc: 0.8000 | Val Acc: 0.7808 [SWA]
+Epoch 29/40 | Train Acc: 0.8035 | Val Acc: 0.7811 [SWA]
+Epoch 30/40 | Train Acc: 0.8034 | Val Acc: 0.7821 [SWA]
+Epoch 31/40 | Train Acc: 0.8048 | Val Acc: 0.7821 [SWA]
+Epoch 32/40 | Train Acc: 0.8070 | Val Acc: 0.7834 [SWA]
+Epoch 33/40 | Train Acc: 0.8076 | Val Acc: 0.7829 [SWA]
+Epoch 34/40 | Train Acc: 0.8072 | Val Acc: 0.7837 [SWA]
+Epoch 35/40 | Train Acc: 0.8098 | Val Acc: 0.7835 [SWA]
+Epoch 36/40 | Train Acc: 0.8111 | Val Acc: 0.7841 [SWA]
+Epoch 37/40 | Train Acc: 0.8110 | Val Acc: 0.7842 [SWA]
+Epoch 38/40 | Train Acc: 0.8140 | Val Acc: 0.7843 [SWA]
+Epoch 39/40 | Train Acc: 0.8154 | Val Acc: 0.7844 [SWA]
+[I 2026-02-23 17:37:41,255] Trial 0 finished with value: 0.7848166666666666 and parameters: {'n_layers': 3, 'first_layer': 1024, 'shrink': 0.7058165439969085, 'dropout': 0.27855912121984516, 'lr': 0.00045420920637163274, 'wd': 2.7801226153050477e-06, 'arch_type': 'hourglass'}. Best is trial 0 with value: 0.7848166666666666.
+Epoch 40/40 | Train Acc: 0.8166 | Val Acc: 0.7845 [SWA]
+✅ Fold 3 Best Val Acc: 0.7845
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.7848
+Trials Remaining: 24
+============================================================
+
+============================================================
+🔎 Trial 2/25 STARTED
+============================================================
+Arch Type: flat
+Architecture: [512, 512, 512]
+Dropout: 0.381 | LR: 0.00193 | WD: 0.000051
+
+📂 Fold 1/3
+Parameters: 937,999
+Epoch 01/40 | Train Acc: 0.5287 | Val Acc: 0.5452
+Epoch 02/40 | Train Acc: 0.6321 | Val Acc: 0.6524
+Epoch 03/40 | Train Acc: 0.6534 | Val Acc: 0.6838
+Epoch 04/40 | Train Acc: 0.6680 | Val Acc: 0.7016
+Epoch 05/40 | Train Acc: 0.6834 | Val Acc: 0.7092
+Epoch 06/40 | Train Acc: 0.6905 | Val Acc: 0.7177
+Epoch 07/40 | Train Acc: 0.6953 | Val Acc: 0.7210
+Epoch 08/40 | Train Acc: 0.6997 | Val Acc: 0.7249
+Epoch 09/40 | Train Acc: 0.7025 | Val Acc: 0.7280
+Epoch 10/40 | Train Acc: 0.7027 | Val Acc: 0.7282
+Epoch 11/40 | Train Acc: 0.7093 | Val Acc: 0.7323
+Epoch 12/40 | Train Acc: 0.7181 | Val Acc: 0.7410
+Epoch 13/40 | Train Acc: 0.7223 | Val Acc: 0.7499
+Epoch 14/40 | Train Acc: 0.7314 | Val Acc: 0.7501
+Epoch 15/40 | Train Acc: 0.7379 | Val Acc: 0.7559
+Epoch 16/40 | Train Acc: 0.7428 | Val Acc: 0.7573
+Epoch 17/40 | Train Acc: 0.7512 | Val Acc: 0.7628
+Epoch 18/40 | Train Acc: 0.7513 | Val Acc: 0.7655
+Epoch 19/40 | Train Acc: 0.7557 | Val Acc: 0.7691
+Epoch 20/40 | Train Acc: 0.7623 | Val Acc: 0.7720
+Epoch 21/40 | Train Acc: 0.7660 | Val Acc: 0.7766
+Epoch 22/40 | Train Acc: 0.7691 | Val Acc: 0.7761
+Epoch 23/40 | Train Acc: 0.7702 | Val Acc: 0.7794
+Epoch 24/40 | Train Acc: 0.7696 | Val Acc: 0.7798
+Epoch 25/40 | Train Acc: 0.7722 | Val Acc: 0.7788
+Epoch 26/40 | Train Acc: 0.7745 | Val Acc: 0.7815 [SWA]
+Epoch 27/40 | Train Acc: 0.7779 | Val Acc: 0.7833 [SWA]
+Epoch 28/40 | Train Acc: 0.7791 | Val Acc: 0.7838 [SWA]
+Epoch 29/40 | Train Acc: 0.7814 | Val Acc: 0.7844 [SWA]
+Epoch 30/40 | Train Acc: 0.7847 | Val Acc: 0.7850 [SWA]
+Epoch 31/40 | Train Acc: 0.7816 | Val Acc: 0.7853 [SWA]
+Epoch 32/40 | Train Acc: 0.7844 | Val Acc: 0.7863 [SWA]
+Epoch 33/40 | Train Acc: 0.7837 | Val Acc: 0.7870 [SWA]
+Epoch 34/40 | Train Acc: 0.7821 | Val Acc: 0.7868 [SWA]
+Epoch 35/40 | Train Acc: 0.7875 | Val Acc: 0.7874 [SWA]
+Epoch 36/40 | Train Acc: 0.7893 | Val Acc: 0.7883 [SWA]
+Epoch 37/40 | Train Acc: 0.7918 | Val Acc: 0.7885 [SWA]
+Epoch 38/40 | Train Acc: 0.7917 | Val Acc: 0.7888 [SWA]
+Epoch 39/40 | Train Acc: 0.7935 | Val Acc: 0.7892 [SWA]
+Epoch 40/40 | Train Acc: 0.7935 | Val Acc: 0.7895 [SWA]
+✅ Fold 1 Best Val Acc: 0.7895
+
+📂 Fold 2/3
+Parameters: 937,999
+Epoch 01/40 | Train Acc: 0.5154 | Val Acc: 0.5752
+Epoch 02/40 | Train Acc: 0.6278 | Val Acc: 0.6553
+Epoch 03/40 | Train Acc: 0.6480 | Val Acc: 0.6862
+Epoch 04/40 | Train Acc: 0.6673 | Val Acc: 0.7045
+Epoch 05/40 | Train Acc: 0.6798 | Val Acc: 0.7084
+Epoch 06/40 | Train Acc: 0.6875 | Val Acc: 0.7142
+Epoch 07/40 | Train Acc: 0.6925 | Val Acc: 0.7212
+Epoch 08/40 | Train Acc: 0.6978 | Val Acc: 0.7249
+Epoch 09/40 | Train Acc: 0.7011 | Val Acc: 0.7271
+Epoch 10/40 | Train Acc: 0.7023 | Val Acc: 0.7279
+Epoch 11/40 | Train Acc: 0.7074 | Val Acc: 0.7349
+Epoch 12/40 | Train Acc: 0.7129 | Val Acc: 0.7405
+Epoch 13/40 | Train Acc: 0.7197 | Val Acc: 0.7435
+Epoch 14/40 | Train Acc: 0.7264 | Val Acc: 0.7520
+Epoch 15/40 | Train Acc: 0.7365 | Val Acc: 0.7598
+Epoch 16/40 | Train Acc: 0.7439 | Val Acc: 0.7630
+Epoch 17/40 | Train Acc: 0.7507 | Val Acc: 0.7665
+Epoch 18/40 | Train Acc: 0.7530 | Val Acc: 0.7688
+Epoch 19/40 | Train Acc: 0.7592 | Val Acc: 0.7792
+Epoch 20/40 | Train Acc: 0.7635 | Val Acc: 0.7810
+Epoch 21/40 | Train Acc: 0.7658 | Val Acc: 0.7804
+Epoch 22/40 | Train Acc: 0.7693 | Val Acc: 0.7840
+Epoch 23/40 | Train Acc: 0.7725 | Val Acc: 0.7864
+Epoch 24/40 | Train Acc: 0.7751 | Val Acc: 0.7863
+Epoch 25/40 | Train Acc: 0.7742 | Val Acc: 0.7889
+Epoch 26/40 | Train Acc: 0.7760 | Val Acc: 0.7887 [SWA]
+Epoch 27/40 | Train Acc: 0.7792 | Val Acc: 0.7890 [SWA]
+Epoch 28/40 | Train Acc: 0.7778 | Val Acc: 0.7902 [SWA]
+Epoch 29/40 | Train Acc: 0.7800 | Val Acc: 0.7901 [SWA]
+Epoch 30/40 | Train Acc: 0.7829 | Val Acc: 0.7907 [SWA]
+Epoch 31/40 | Train Acc: 0.7833 | Val Acc: 0.7910 [SWA]
+Epoch 32/40 | Train Acc: 0.7824 | Val Acc: 0.7910 [SWA]
+Epoch 33/40 | Train Acc: 0.7867 | Val Acc: 0.7922 [SWA]
+Epoch 34/40 | Train Acc: 0.7876 | Val Acc: 0.7924 [SWA]
+Epoch 35/40 | Train Acc: 0.7900 | Val Acc: 0.7927 [SWA]
+Epoch 36/40 | Train Acc: 0.7903 | Val Acc: 0.7931 [SWA]
+Epoch 37/40 | Train Acc: 0.7942 | Val Acc: 0.7938 [SWA]
+Epoch 38/40 | Train Acc: 0.7917 | Val Acc: 0.7942 [SWA]
+Epoch 39/40 | Train Acc: 0.7919 | Val Acc: 0.7941 [SWA]
+Epoch 40/40 | Train Acc: 0.7952 | Val Acc: 0.7946 [SWA]
+✅ Fold 2 Best Val Acc: 0.7946
+
+📂 Fold 3/3
+Parameters: 937,999
+Epoch 01/40 | Train Acc: 0.5152 | Val Acc: 0.5748
+Epoch 02/40 | Train Acc: 0.6270 | Val Acc: 0.6533
+Epoch 03/40 | Train Acc: 0.6511 | Val Acc: 0.6835
+Epoch 04/40 | Train Acc: 0.6626 | Val Acc: 0.6995
+Epoch 05/40 | Train Acc: 0.6806 | Val Acc: 0.7038
+Epoch 06/40 | Train Acc: 0.6880 | Val Acc: 0.7145
+Epoch 07/40 | Train Acc: 0.6905 | Val Acc: 0.7143
+Epoch 08/40 | Train Acc: 0.6927 | Val Acc: 0.7188
+Epoch 09/40 | Train Acc: 0.6992 | Val Acc: 0.7213
+Epoch 10/40 | Train Acc: 0.7013 | Val Acc: 0.7225
+Epoch 11/40 | Train Acc: 0.7083 | Val Acc: 0.7297
+Epoch 12/40 | Train Acc: 0.7132 | Val Acc: 0.7325
+Epoch 13/40 | Train Acc: 0.7186 | Val Acc: 0.7401
+Epoch 14/40 | Train Acc: 0.7296 | Val Acc: 0.7440
+Epoch 15/40 | Train Acc: 0.7358 | Val Acc: 0.7528
+Epoch 16/40 | Train Acc: 0.7447 | Val Acc: 0.7602
+Epoch 17/40 | Train Acc: 0.7483 | Val Acc: 0.7629
+Epoch 18/40 | Train Acc: 0.7545 | Val Acc: 0.7649
+Epoch 19/40 | Train Acc: 0.7591 | Val Acc: 0.7677
+Epoch 20/40 | Train Acc: 0.7659 | Val Acc: 0.7742
+Epoch 21/40 | Train Acc: 0.7709 | Val Acc: 0.7751
+Epoch 22/40 | Train Acc: 0.7723 | Val Acc: 0.7799
+Epoch 23/40 | Train Acc: 0.7742 | Val Acc: 0.7794
+Epoch 24/40 | Train Acc: 0.7771 | Val Acc: 0.7838
+Epoch 25/40 | Train Acc: 0.7812 | Val Acc: 0.7841
+Epoch 26/40 | Train Acc: 0.7823 | Val Acc: 0.7849 [SWA]
+Epoch 27/40 | Train Acc: 0.7829 | Val Acc: 0.7863 [SWA]
+Epoch 28/40 | Train Acc: 0.7835 | Val Acc: 0.7868 [SWA]
+Epoch 29/40 | Train Acc: 0.7858 | Val Acc: 0.7874 [SWA]
+Epoch 30/40 | Train Acc: 0.7839 | Val Acc: 0.7879 [SWA]
+Epoch 31/40 | Train Acc: 0.7857 | Val Acc: 0.7884 [SWA]
+Epoch 32/40 | Train Acc: 0.7872 | Val Acc: 0.7893 [SWA]
+Epoch 33/40 | Train Acc: 0.7884 | Val Acc: 0.7897 [SWA]
+Epoch 34/40 | Train Acc: 0.7925 | Val Acc: 0.7903 [SWA]
+Epoch 35/40 | Train Acc: 0.7944 | Val Acc: 0.7907 [SWA]
+Epoch 36/40 | Train Acc: 0.7982 | Val Acc: 0.7916 [SWA]
+Epoch 37/40 | Train Acc: 0.7970 | Val Acc: 0.7922 [SWA]
+Epoch 38/40 | Train Acc: 0.7961 | Val Acc: 0.7925 [SWA]
+Epoch 39/40 | Train Acc: 0.7985 | Val Acc: 0.7932 [SWA]
+[I 2026-02-23 17:47:21,095] Trial 1 finished with value: 0.7926500000000001 and parameters: {'n_layers': 3, 'first_layer': 512, 'shrink': 0.8667618164299231, 'dropout': 0.38123012641299264, 'lr': 0.001928345267253064, 'wd': 5.116877700870997e-05, 'arch_type': 'flat'}. Best is trial 1 with value: 0.7926500000000001.
+Epoch 40/40 | Train Acc: 0.7981 | Val Acc: 0.7937 [SWA]
+✅ Fold 3 Best Val Acc: 0.7937
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.7927
+Trials Remaining: 23
+============================================================
+
+============================================================
+🔎 Trial 3/25 STARTED
+============================================================
+Arch Type: flat
+Architecture: [512, 512, 512, 512]
+Dropout: 0.266 | LR: 0.00204 | WD: 0.000002
+
+📂 Fold 1/3
+Parameters: 1,201,679
+Epoch 01/40 | Train Acc: 0.5370 | Val Acc: 0.5743
+Epoch 02/40 | Train Acc: 0.6417 | Val Acc: 0.6696
+Epoch 03/40 | Train Acc: 0.6729 | Val Acc: 0.7001
+Epoch 04/40 | Train Acc: 0.6917 | Val Acc: 0.7187
+Epoch 05/40 | Train Acc: 0.7050 | Val Acc: 0.7278
+Epoch 06/40 | Train Acc: 0.7126 | Val Acc: 0.7316
+Epoch 07/40 | Train Acc: 0.7225 | Val Acc: 0.7395
+Epoch 08/40 | Train Acc: 0.7247 | Val Acc: 0.7469
+Epoch 09/40 | Train Acc: 0.7279 | Val Acc: 0.7480
+Epoch 10/40 | Train Acc: 0.7314 | Val Acc: 0.7488
+Epoch 11/40 | Train Acc: 0.7360 | Val Acc: 0.7479
+Epoch 12/40 | Train Acc: 0.7392 | Val Acc: 0.7470
+Epoch 13/40 | Train Acc: 0.7460 | Val Acc: 0.7577
+Epoch 14/40 | Train Acc: 0.7531 | Val Acc: 0.7575
+Epoch 15/40 | Train Acc: 0.7617 | Val Acc: 0.7653
+Epoch 16/40 | Train Acc: 0.7628 | Val Acc: 0.7653
+Epoch 17/40 | Train Acc: 0.7711 | Val Acc: 0.7749
+Epoch 18/40 | Train Acc: 0.7785 | Val Acc: 0.7770
+Epoch 19/40 | Train Acc: 0.7852 | Val Acc: 0.7833
+Epoch 20/40 | Train Acc: 0.7885 | Val Acc: 0.7913
+Epoch 21/40 | Train Acc: 0.7964 | Val Acc: 0.7883
+Epoch 22/40 | Train Acc: 0.8012 | Val Acc: 0.7922
+Epoch 23/40 | Train Acc: 0.8053 | Val Acc: 0.7924
+Epoch 24/40 | Train Acc: 0.8075 | Val Acc: 0.7943
+Epoch 25/40 | Train Acc: 0.8112 | Val Acc: 0.7959
+Epoch 26/40 | Train Acc: 0.8101 | Val Acc: 0.7978 [SWA]
+Epoch 27/40 | Train Acc: 0.8111 | Val Acc: 0.7994 [SWA]
+Epoch 28/40 | Train Acc: 0.8127 | Val Acc: 0.8005 [SWA]
+Epoch 29/40 | Train Acc: 0.8164 | Val Acc: 0.8006 [SWA]
+Epoch 30/40 | Train Acc: 0.8147 | Val Acc: 0.8013 [SWA]
+Epoch 31/40 | Train Acc: 0.8194 | Val Acc: 0.8016 [SWA]
+Epoch 32/40 | Train Acc: 0.8179 | Val Acc: 0.8022 [SWA]
+Epoch 33/40 | Train Acc: 0.8242 | Val Acc: 0.8024 [SWA]
+Epoch 34/40 | Train Acc: 0.8235 | Val Acc: 0.8024 [SWA]
+Epoch 35/40 | Train Acc: 0.8232 | Val Acc: 0.8026 [SWA]
+Epoch 36/40 | Train Acc: 0.8263 | Val Acc: 0.8024 [SWA]
+Epoch 37/40 | Train Acc: 0.8280 | Val Acc: 0.8032 [SWA]
+Epoch 38/40 | Train Acc: 0.8283 | Val Acc: 0.8038 [SWA]
+Epoch 39/40 | Train Acc: 0.8291 | Val Acc: 0.8042 [SWA]
+Epoch 40/40 | Train Acc: 0.8313 | Val Acc: 0.8044 [SWA]
+✅ Fold 1 Best Val Acc: 0.8044
+
+📂 Fold 2/3
+Parameters: 1,201,679
+Epoch 01/40 | Train Acc: 0.5323 | Val Acc: 0.5889
+Epoch 02/40 | Train Acc: 0.6360 | Val Acc: 0.6805
+Epoch 03/40 | Train Acc: 0.6716 | Val Acc: 0.7025
+Epoch 04/40 | Train Acc: 0.6886 | Val Acc: 0.7167
+Epoch 05/40 | Train Acc: 0.7040 | Val Acc: 0.7322
+Epoch 06/40 | Train Acc: 0.7113 | Val Acc: 0.7353
+Epoch 07/40 | Train Acc: 0.7177 | Val Acc: 0.7386
+Epoch 08/40 | Train Acc: 0.7216 | Val Acc: 0.7415
+Epoch 09/40 | Train Acc: 0.7259 | Val Acc: 0.7446
+Epoch 10/40 | Train Acc: 0.7261 | Val Acc: 0.7453
+Epoch 11/40 | Train Acc: 0.7370 | Val Acc: 0.7491
+Epoch 12/40 | Train Acc: 0.7449 | Val Acc: 0.7573
+Epoch 13/40 | Train Acc: 0.7530 | Val Acc: 0.7642
+Epoch 14/40 | Train Acc: 0.7619 | Val Acc: 0.7702
+Epoch 15/40 | Train Acc: 0.7693 | Val Acc: 0.7752
+Epoch 16/40 | Train Acc: 0.7735 | Val Acc: 0.7687
+Epoch 17/40 | Train Acc: 0.7773 | Val Acc: 0.7753
+Epoch 18/40 | Train Acc: 0.7861 | Val Acc: 0.7848
+Epoch 19/40 | Train Acc: 0.7913 | Val Acc: 0.7846
+Epoch 20/40 | Train Acc: 0.7959 | Val Acc: 0.7927
+Epoch 21/40 | Train Acc: 0.7974 | Val Acc: 0.7904
+Epoch 22/40 | Train Acc: 0.8011 | Val Acc: 0.7929
+Epoch 23/40 | Train Acc: 0.8087 | Val Acc: 0.7975
+Epoch 24/40 | Train Acc: 0.8060 | Val Acc: 0.7975
+Epoch 25/40 | Train Acc: 0.8102 | Val Acc: 0.8003
+Epoch 26/40 | Train Acc: 0.8133 | Val Acc: 0.8012 [SWA]
+Epoch 27/40 | Train Acc: 0.8122 | Val Acc: 0.8032 [SWA]
+Epoch 28/40 | Train Acc: 0.8159 | Val Acc: 0.8036 [SWA]
+Epoch 29/40 | Train Acc: 0.8174 | Val Acc: 0.8032 [SWA]
+Epoch 30/40 | Train Acc: 0.8173 | Val Acc: 0.8030 [SWA]
+Epoch 31/40 | Train Acc: 0.8183 | Val Acc: 0.8027 [SWA]
+Epoch 32/40 | Train Acc: 0.8203 | Val Acc: 0.8034 [SWA]
+Epoch 33/40 | Train Acc: 0.8243 | Val Acc: 0.8043 [SWA]
+Epoch 34/40 | Train Acc: 0.8274 | Val Acc: 0.8044 [SWA]
+Epoch 35/40 | Train Acc: 0.8268 | Val Acc: 0.8045 [SWA]
+Epoch 36/40 | Train Acc: 0.8290 | Val Acc: 0.8052 [SWA]
+Epoch 37/40 | Train Acc: 0.8295 | Val Acc: 0.8060 [SWA]
+Epoch 38/40 | Train Acc: 0.8314 | Val Acc: 0.8056 [SWA]
+Epoch 39/40 | Train Acc: 0.8326 | Val Acc: 0.8060 [SWA]
+Epoch 40/40 | Train Acc: 0.8328 | Val Acc: 0.8064 [SWA]
+✅ Fold 2 Best Val Acc: 0.8064
+
+📂 Fold 3/3
+Parameters: 1,201,679
+Epoch 01/40 | Train Acc: 0.5363 | Val Acc: 0.5938
+Epoch 02/40 | Train Acc: 0.6361 | Val Acc: 0.6603
+Epoch 03/40 | Train Acc: 0.6769 | Val Acc: 0.6952
+Epoch 04/40 | Train Acc: 0.6913 | Val Acc: 0.7153
+Epoch 05/40 | Train Acc: 0.7040 | Val Acc: 0.7195
+Epoch 06/40 | Train Acc: 0.7097 | Val Acc: 0.7287
+Epoch 07/40 | Train Acc: 0.7188 | Val Acc: 0.7368
+Epoch 08/40 | Train Acc: 0.7259 | Val Acc: 0.7421
+Epoch 09/40 | Train Acc: 0.7280 | Val Acc: 0.7430
+Epoch 10/40 | Train Acc: 0.7298 | Val Acc: 0.7426
+Epoch 11/40 | Train Acc: 0.7436 | Val Acc: 0.7513
+Epoch 12/40 | Train Acc: 0.7501 | Val Acc: 0.7585
+Epoch 13/40 | Train Acc: 0.7518 | Val Acc: 0.7550
+Epoch 14/40 | Train Acc: 0.7561 | Val Acc: 0.7595
+Epoch 15/40 | Train Acc: 0.7670 | Val Acc: 0.7613
+Epoch 16/40 | Train Acc: 0.7779 | Val Acc: 0.7726
+Epoch 17/40 | Train Acc: 0.7787 | Val Acc: 0.7670
+Epoch 18/40 | Train Acc: 0.7827 | Val Acc: 0.7747
+Epoch 19/40 | Train Acc: 0.7877 | Val Acc: 0.7787
+Epoch 20/40 | Train Acc: 0.7933 | Val Acc: 0.7836
+Epoch 21/40 | Train Acc: 0.7982 | Val Acc: 0.7848
+Epoch 22/40 | Train Acc: 0.8011 | Val Acc: 0.7893
+Epoch 23/40 | Train Acc: 0.8031 | Val Acc: 0.7904
+Epoch 24/40 | Train Acc: 0.8084 | Val Acc: 0.7931
+Epoch 25/40 | Train Acc: 0.8073 | Val Acc: 0.7955
+Epoch 26/40 | Train Acc: 0.8136 | Val Acc: 0.7974 [SWA]
+Epoch 27/40 | Train Acc: 0.8146 | Val Acc: 0.7970 [SWA]
+Epoch 28/40 | Train Acc: 0.8146 | Val Acc: 0.7965 [SWA]
+Epoch 29/40 | Train Acc: 0.8155 | Val Acc: 0.7963 [SWA]
+Epoch 30/40 | Train Acc: 0.8164 | Val Acc: 0.7983 [SWA]
+Epoch 31/40 | Train Acc: 0.8211 | Val Acc: 0.7985 [SWA]
+Epoch 32/40 | Train Acc: 0.8211 | Val Acc: 0.7994 [SWA]
+Epoch 33/40 | Train Acc: 0.8238 | Val Acc: 0.8001 [SWA]
+Epoch 34/40 | Train Acc: 0.8279 | Val Acc: 0.8005 [SWA]
+Epoch 35/40 | Train Acc: 0.8268 | Val Acc: 0.8010 [SWA]
+Epoch 36/40 | Train Acc: 0.8299 | Val Acc: 0.8015 [SWA]
+Epoch 37/40 | Train Acc: 0.8302 | Val Acc: 0.8013 [SWA]
+Epoch 38/40 | Train Acc: 0.8312 | Val Acc: 0.8017 [SWA]
+Epoch 39/40 | Train Acc: 0.8331 | Val Acc: 0.8020 [SWA]
+[I 2026-02-23 17:57:04,994] Trial 2 finished with value: 0.8045666666666667 and parameters: {'n_layers': 4, 'first_layer': 512, 'shrink': 0.830269135878281, 'dropout': 0.26592222931492165, 'lr': 0.0020443145088561063, 'wd': 2.3668711881190173e-06, 'arch_type': 'flat'}. Best is trial 2 with value: 0.8045666666666667.
+Epoch 40/40 | Train Acc: 0.8349 | Val Acc: 0.8029 [SWA]
+✅ Fold 3 Best Val Acc: 0.8029
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.8046
+Trials Remaining: 22
+============================================================
+
+============================================================
+🔎 Trial 4/25 STARTED
+============================================================
+Arch Type: shrink
+Architecture: [640, 533, 444, 371, 309]
+Dropout: 0.308 | LR: 0.00010 | WD: 0.000003
+
+📂 Fold 1/3
+Parameters: 1,370,436
+Epoch 01/40 | Train Acc: 0.1122 | Val Acc: 0.0868
+Epoch 02/40 | Train Acc: 0.2324 | Val Acc: 0.3614
+Epoch 03/40 | Train Acc: 0.3332 | Val Acc: 0.4303
+Epoch 04/40 | Train Acc: 0.3854 | Val Acc: 0.4426
+Epoch 05/40 | Train Acc: 0.4151 | Val Acc: 0.4611
+Epoch 06/40 | Train Acc: 0.4419 | Val Acc: 0.4682
+Epoch 07/40 | Train Acc: 0.4569 | Val Acc: 0.4860
+Epoch 08/40 | Train Acc: 0.4679 | Val Acc: 0.4989
+Epoch 09/40 | Train Acc: 0.4711 | Val Acc: 0.5042
+Epoch 10/40 | Train Acc: 0.4731 | Val Acc: 0.4981
+Epoch 11/40 | Train Acc: 0.4919 | Val Acc: 0.5396
+Epoch 12/40 | Train Acc: 0.5266 | Val Acc: 0.5798
+Epoch 13/40 | Train Acc: 0.5492 | Val Acc: 0.6022
+Epoch 14/40 | Train Acc: 0.5678 | Val Acc: 0.6193
+Epoch 15/40 | Train Acc: 0.5819 | Val Acc: 0.6284
+Epoch 16/40 | Train Acc: 0.5940 | Val Acc: 0.6381
+Epoch 17/40 | Train Acc: 0.6009 | Val Acc: 0.6426
+Epoch 18/40 | Train Acc: 0.6058 | Val Acc: 0.6479
+Epoch 19/40 | Train Acc: 0.6133 | Val Acc: 0.6532
+Epoch 20/40 | Train Acc: 0.6191 | Val Acc: 0.6570
+Epoch 21/40 | Train Acc: 0.6193 | Val Acc: 0.6585
+Epoch 22/40 | Train Acc: 0.6241 | Val Acc: 0.6624
+Epoch 23/40 | Train Acc: 0.6263 | Val Acc: 0.6627
+Epoch 24/40 | Train Acc: 0.6258 | Val Acc: 0.6626
+Epoch 25/40 | Train Acc: 0.6257 | Val Acc: 0.6637
+Epoch 26/40 | Train Acc: 0.6303 | Val Acc: 0.6631 [SWA]
+Epoch 27/40 | Train Acc: 0.6294 | Val Acc: 0.6634 [SWA]
+Epoch 28/40 | Train Acc: 0.6302 | Val Acc: 0.6635 [SWA]
+Epoch 29/40 | Train Acc: 0.6328 | Val Acc: 0.6643 [SWA]
+Epoch 30/40 | Train Acc: 0.6338 | Val Acc: 0.6650 [SWA]
+Epoch 31/40 | Train Acc: 0.6358 | Val Acc: 0.6656 [SWA]
+Epoch 32/40 | Train Acc: 0.6385 | Val Acc: 0.6665 [SWA]
+Epoch 33/40 | Train Acc: 0.6349 | Val Acc: 0.6667 [SWA]
+Epoch 34/40 | Train Acc: 0.6414 | Val Acc: 0.6670 [SWA]
+Epoch 35/40 | Train Acc: 0.6405 | Val Acc: 0.6675 [SWA]
+Epoch 36/40 | Train Acc: 0.6426 | Val Acc: 0.6677 [SWA]
+Epoch 37/40 | Train Acc: 0.6441 | Val Acc: 0.6686 [SWA]
+Epoch 38/40 | Train Acc: 0.6411 | Val Acc: 0.6687 [SWA]
+Epoch 39/40 | Train Acc: 0.6455 | Val Acc: 0.6693 [SWA]
+Epoch 40/40 | Train Acc: 0.6481 | Val Acc: 0.6701 [SWA]
+✅ Fold 1 Best Val Acc: 0.6701
+
+📂 Fold 2/3
+Parameters: 1,370,436
+Epoch 01/40 | Train Acc: 0.1159 | Val Acc: 0.1290
+Epoch 02/40 | Train Acc: 0.2339 | Val Acc: 0.4328
+Epoch 03/40 | Train Acc: 0.3365 | Val Acc: 0.4942
+Epoch 04/40 | Train Acc: 0.3956 | Val Acc: 0.4965
+Epoch 05/40 | Train Acc: 0.4298 | Val Acc: 0.5074
+Epoch 06/40 | Train Acc: 0.4531 | Val Acc: 0.5232
+Epoch 07/40 | Train Acc: 0.4665 | Val Acc: 0.5388
+Epoch 08/40 | Train Acc: 0.4770 | Val Acc: 0.5455
+Epoch 09/40 | Train Acc: 0.4842 | Val Acc: 0.5489
+Epoch 10/40 | Train Acc: 0.4857 | Val Acc: 0.5521
+Epoch 11/40 | Train Acc: 0.5060 | Val Acc: 0.5844
+Epoch 12/40 | Train Acc: 0.5352 | Val Acc: 0.6060
+Epoch 13/40 | Train Acc: 0.5552 | Val Acc: 0.6193
+Epoch 14/40 | Train Acc: 0.5717 | Val Acc: 0.6316
+Epoch 15/40 | Train Acc: 0.5842 | Val Acc: 0.6379
+Epoch 16/40 | Train Acc: 0.5907 | Val Acc: 0.6467
+Epoch 17/40 | Train Acc: 0.5996 | Val Acc: 0.6528
+Epoch 18/40 | Train Acc: 0.6052 | Val Acc: 0.6573
+Epoch 19/40 | Train Acc: 0.6094 | Val Acc: 0.6612
+Epoch 20/40 | Train Acc: 0.6163 | Val Acc: 0.6632
+Epoch 21/40 | Train Acc: 0.6200 | Val Acc: 0.6659
+Epoch 22/40 | Train Acc: 0.6206 | Val Acc: 0.6680
+Epoch 23/40 | Train Acc: 0.6255 | Val Acc: 0.6697
+Epoch 24/40 | Train Acc: 0.6225 | Val Acc: 0.6706
+Epoch 25/40 | Train Acc: 0.6303 | Val Acc: 0.6716
+Epoch 26/40 | Train Acc: 0.6294 | Val Acc: 0.6709 [SWA]
+Epoch 27/40 | Train Acc: 0.6277 | Val Acc: 0.6715 [SWA]
+Epoch 28/40 | Train Acc: 0.6272 | Val Acc: 0.6719 [SWA]
+Epoch 29/40 | Train Acc: 0.6297 | Val Acc: 0.6725 [SWA]
+Epoch 30/40 | Train Acc: 0.6325 | Val Acc: 0.6725 [SWA]
+Epoch 31/40 | Train Acc: 0.6338 | Val Acc: 0.6741 [SWA]
+Epoch 32/40 | Train Acc: 0.6343 | Val Acc: 0.6745 [SWA]
+Epoch 33/40 | Train Acc: 0.6383 | Val Acc: 0.6752 [SWA]
+Epoch 34/40 | Train Acc: 0.6387 | Val Acc: 0.6754 [SWA]
+Epoch 35/40 | Train Acc: 0.6399 | Val Acc: 0.6759 [SWA]
+Epoch 36/40 | Train Acc: 0.6396 | Val Acc: 0.6766 [SWA]
+Epoch 37/40 | Train Acc: 0.6434 | Val Acc: 0.6775 [SWA]
+Epoch 38/40 | Train Acc: 0.6428 | Val Acc: 0.6783 [SWA]
+Epoch 39/40 | Train Acc: 0.6448 | Val Acc: 0.6789 [SWA]
+Epoch 40/40 | Train Acc: 0.6489 | Val Acc: 0.6795 [SWA]
+✅ Fold 2 Best Val Acc: 0.6795
+
+📂 Fold 3/3
+Parameters: 1,370,436
+Epoch 01/40 | Train Acc: 0.1186 | Val Acc: 0.0670
+Epoch 02/40 | Train Acc: 0.2393 | Val Acc: 0.3679
+Epoch 03/40 | Train Acc: 0.3355 | Val Acc: 0.4487
+Epoch 04/40 | Train Acc: 0.3917 | Val Acc: 0.4606
+Epoch 05/40 | Train Acc: 0.4244 | Val Acc: 0.4715
+Epoch 06/40 | Train Acc: 0.4432 | Val Acc: 0.4881
+Epoch 07/40 | Train Acc: 0.4623 | Val Acc: 0.5099
+Epoch 08/40 | Train Acc: 0.4784 | Val Acc: 0.5179
+Epoch 09/40 | Train Acc: 0.4768 | Val Acc: 0.5235
+Epoch 10/40 | Train Acc: 0.4803 | Val Acc: 0.5213
+Epoch 11/40 | Train Acc: 0.4983 | Val Acc: 0.5675
+Epoch 12/40 | Train Acc: 0.5291 | Val Acc: 0.5946
+Epoch 13/40 | Train Acc: 0.5521 | Val Acc: 0.6110
+Epoch 14/40 | Train Acc: 0.5665 | Val Acc: 0.6248
+Epoch 15/40 | Train Acc: 0.5801 | Val Acc: 0.6333
+Epoch 16/40 | Train Acc: 0.5887 | Val Acc: 0.6401
+Epoch 17/40 | Train Acc: 0.5967 | Val Acc: 0.6466
+Epoch 18/40 | Train Acc: 0.6028 | Val Acc: 0.6491
+Epoch 19/40 | Train Acc: 0.6081 | Val Acc: 0.6553
+Epoch 20/40 | Train Acc: 0.6144 | Val Acc: 0.6591
+Epoch 21/40 | Train Acc: 0.6184 | Val Acc: 0.6627
+Epoch 22/40 | Train Acc: 0.6184 | Val Acc: 0.6635
+Epoch 23/40 | Train Acc: 0.6224 | Val Acc: 0.6649
+Epoch 24/40 | Train Acc: 0.6235 | Val Acc: 0.6673
+Epoch 25/40 | Train Acc: 0.6249 | Val Acc: 0.6691
+Epoch 26/40 | Train Acc: 0.6257 | Val Acc: 0.6666 [SWA]
+Epoch 27/40 | Train Acc: 0.6259 | Val Acc: 0.6670 [SWA]
+Epoch 28/40 | Train Acc: 0.6255 | Val Acc: 0.6673 [SWA]
+Epoch 29/40 | Train Acc: 0.6290 | Val Acc: 0.6678 [SWA]
+Epoch 30/40 | Train Acc: 0.6288 | Val Acc: 0.6680 [SWA]
+Epoch 31/40 | Train Acc: 0.6310 | Val Acc: 0.6689 [SWA]
+Epoch 32/40 | Train Acc: 0.6320 | Val Acc: 0.6696 [SWA]
+Epoch 33/40 | Train Acc: 0.6347 | Val Acc: 0.6700 [SWA]
+Epoch 34/40 | Train Acc: 0.6369 | Val Acc: 0.6703 [SWA]
+Epoch 35/40 | Train Acc: 0.6390 | Val Acc: 0.6708 [SWA]
+Epoch 36/40 | Train Acc: 0.6392 | Val Acc: 0.6714 [SWA]
+Epoch 37/40 | Train Acc: 0.6404 | Val Acc: 0.6717 [SWA]
+Epoch 38/40 | Train Acc: 0.6439 | Val Acc: 0.6726 [SWA]
+Epoch 39/40 | Train Acc: 0.6419 | Val Acc: 0.6728 [SWA]
+[I 2026-02-23 18:07:06,964] Trial 3 finished with value: 0.6742666666666667 and parameters: {'n_layers': 5, 'first_layer': 640, 'shrink': 0.8338378901578927, 'dropout': 0.30818188961067305, 'lr': 0.00010075887255555384, 'wd': 3.362857235012319e-06, 'arch_type': 'shrink'}. Best is trial 2 with value: 0.8045666666666667.
+Epoch 40/40 | Train Acc: 0.6419 | Val Acc: 0.6732 [SWA]
+✅ Fold 3 Best Val Acc: 0.6732
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.6743
+Trials Remaining: 21
+============================================================
+
+============================================================
+🔎 Trial 5/25 STARTED
+============================================================
+Arch Type: flat
+Architecture: [1024, 1024, 1024, 1024, 1024]
+Dropout: 0.207 | LR: 0.00023 | WD: 0.000050
+
+📂 Fold 1/3
+[I 2026-02-23 18:07:07,180] Trial 4 finished with value: 0.0 and parameters: {'n_layers': 5, 'first_layer': 1024, 'shrink': 0.8072201479724926, 'dropout': 0.20709198172522494, 'lr': 0.00022557384942182668, 'wd': 5.000020872330348e-05, 'arch_type': 'flat'}. Best is trial 2 with value: 0.8045666666666667.
+Parameters: 5,027,855
+❌ Exceeds 3M parameter limit — Skipping trial
+
+============================================================
+🔎 Trial 6/25 STARTED
+============================================================
+Arch Type: shrink
+Architecture: [896, 619, 428, 295, 204]
+Dropout: 0.242 | LR: 0.00090 | WD: 0.000007
+
+📂 Fold 1/3
+Parameters: 1,718,861
+Epoch 01/40 | Train Acc: 0.4355 | Val Acc: 0.5483
+Epoch 02/40 | Train Acc: 0.5979 | Val Acc: 0.6411
+Epoch 03/40 | Train Acc: 0.6436 | Val Acc: 0.6788
+Epoch 04/40 | Train Acc: 0.6661 | Val Acc: 0.6919
+Epoch 05/40 | Train Acc: 0.6767 | Val Acc: 0.7049
+Epoch 06/40 | Train Acc: 0.6878 | Val Acc: 0.7138
+Epoch 07/40 | Train Acc: 0.6977 | Val Acc: 0.7214
+Epoch 08/40 | Train Acc: 0.7064 | Val Acc: 0.7257
+Epoch 09/40 | Train Acc: 0.7089 | Val Acc: 0.7278
+Epoch 10/40 | Train Acc: 0.7068 | Val Acc: 0.7281
+Epoch 11/40 | Train Acc: 0.7200 | Val Acc: 0.7400
+Epoch 12/40 | Train Acc: 0.7349 | Val Acc: 0.7470
+Epoch 13/40 | Train Acc: 0.7473 | Val Acc: 0.7502
+Epoch 14/40 | Train Acc: 0.7528 | Val Acc: 0.7504
+Epoch 15/40 | Train Acc: 0.7605 | Val Acc: 0.7637
+Epoch 16/40 | Train Acc: 0.7706 | Val Acc: 0.7721
+Epoch 17/40 | Train Acc: 0.7783 | Val Acc: 0.7736
+Epoch 18/40 | Train Acc: 0.7874 | Val Acc: 0.7729
+Epoch 19/40 | Train Acc: 0.7924 | Val Acc: 0.7794
+Epoch 20/40 | Train Acc: 0.7961 | Val Acc: 0.7824
+Epoch 21/40 | Train Acc: 0.7980 | Val Acc: 0.7883
+Epoch 22/40 | Train Acc: 0.8050 | Val Acc: 0.7824
+Epoch 23/40 | Train Acc: 0.8066 | Val Acc: 0.7903
+Epoch 24/40 | Train Acc: 0.8098 | Val Acc: 0.7910
+Epoch 25/40 | Train Acc: 0.8133 | Val Acc: 0.7941
+Epoch 26/40 | Train Acc: 0.8161 | Val Acc: 0.7950 [SWA]
+Epoch 27/40 | Train Acc: 0.8196 | Val Acc: 0.7956 [SWA]
+Epoch 28/40 | Train Acc: 0.8190 | Val Acc: 0.7960 [SWA]
+Epoch 29/40 | Train Acc: 0.8229 | Val Acc: 0.7966 [SWA]
+Epoch 30/40 | Train Acc: 0.8229 | Val Acc: 0.7977 [SWA]
+Epoch 31/40 | Train Acc: 0.8232 | Val Acc: 0.7983 [SWA]
+Epoch 32/40 | Train Acc: 0.8255 | Val Acc: 0.7981 [SWA]
+Epoch 33/40 | Train Acc: 0.8267 | Val Acc: 0.7996 [SWA]
+Epoch 34/40 | Train Acc: 0.8296 | Val Acc: 0.7993 [SWA]
+Epoch 35/40 | Train Acc: 0.8320 | Val Acc: 0.8002 [SWA]
+Epoch 36/40 | Train Acc: 0.8360 | Val Acc: 0.8008 [SWA]
+Epoch 37/40 | Train Acc: 0.8355 | Val Acc: 0.8016 [SWA]
+Epoch 38/40 | Train Acc: 0.8361 | Val Acc: 0.8019 [SWA]
+Epoch 39/40 | Train Acc: 0.8393 | Val Acc: 0.8023 [SWA]
+Epoch 40/40 | Train Acc: 0.8417 | Val Acc: 0.8030 [SWA]
+✅ Fold 1 Best Val Acc: 0.8030
+
+📂 Fold 2/3
+Parameters: 1,718,861
+Epoch 01/40 | Train Acc: 0.4395 | Val Acc: 0.5759
+Epoch 02/40 | Train Acc: 0.6078 | Val Acc: 0.6460
+Epoch 03/40 | Train Acc: 0.6508 | Val Acc: 0.6862
+Epoch 04/40 | Train Acc: 0.6755 | Val Acc: 0.7006
+Epoch 05/40 | Train Acc: 0.6856 | Val Acc: 0.7096
+Epoch 06/40 | Train Acc: 0.6941 | Val Acc: 0.7188
+Epoch 07/40 | Train Acc: 0.7034 | Val Acc: 0.7241
+Epoch 08/40 | Train Acc: 0.7083 | Val Acc: 0.7278
+Epoch 09/40 | Train Acc: 0.7116 | Val Acc: 0.7304
+Epoch 10/40 | Train Acc: 0.7122 | Val Acc: 0.7302
+Epoch 11/40 | Train Acc: 0.7177 | Val Acc: 0.7235
+Epoch 12/40 | Train Acc: 0.7263 | Val Acc: 0.7376
+Epoch 13/40 | Train Acc: 0.7392 | Val Acc: 0.7502
+Epoch 14/40 | Train Acc: 0.7560 | Val Acc: 0.7600
+Epoch 15/40 | Train Acc: 0.7648 | Val Acc: 0.7673
+Epoch 16/40 | Train Acc: 0.7698 | Val Acc: 0.7652
+Epoch 17/40 | Train Acc: 0.7773 | Val Acc: 0.7762
+Epoch 18/40 | Train Acc: 0.7820 | Val Acc: 0.7689
+Epoch 19/40 | Train Acc: 0.7864 | Val Acc: 0.7840
+Epoch 20/40 | Train Acc: 0.7964 | Val Acc: 0.7833
+Epoch 21/40 | Train Acc: 0.8014 | Val Acc: 0.7867
+Epoch 22/40 | Train Acc: 0.8051 | Val Acc: 0.7907
+Epoch 23/40 | Train Acc: 0.8066 | Val Acc: 0.7919
+Epoch 24/40 | Train Acc: 0.8117 | Val Acc: 0.7968
+Epoch 25/40 | Train Acc: 0.8134 | Val Acc: 0.7922
+Epoch 26/40 | Train Acc: 0.8160 | Val Acc: 0.7979 [SWA]
+Epoch 27/40 | Train Acc: 0.8191 | Val Acc: 0.7990 [SWA]
+Epoch 28/40 | Train Acc: 0.8189 | Val Acc: 0.7998 [SWA]
+Epoch 29/40 | Train Acc: 0.8212 | Val Acc: 0.7998 [SWA]
+Epoch 30/40 | Train Acc: 0.8236 | Val Acc: 0.8004 [SWA]
+Epoch 31/40 | Train Acc: 0.8226 | Val Acc: 0.8011 [SWA]
+Epoch 32/40 | Train Acc: 0.8234 | Val Acc: 0.8010 [SWA]
+Epoch 33/40 | Train Acc: 0.8281 | Val Acc: 0.8011 [SWA]
+Epoch 34/40 | Train Acc: 0.8295 | Val Acc: 0.8020 [SWA]
+Epoch 35/40 | Train Acc: 0.8320 | Val Acc: 0.8021 [SWA]
+Epoch 36/40 | Train Acc: 0.8305 | Val Acc: 0.8023 [SWA]
+Epoch 37/40 | Train Acc: 0.8351 | Val Acc: 0.8034 [SWA]
+Epoch 38/40 | Train Acc: 0.8355 | Val Acc: 0.8035 [SWA]
+Epoch 39/40 | Train Acc: 0.8371 | Val Acc: 0.8045 [SWA]
+Epoch 40/40 | Train Acc: 0.8398 | Val Acc: 0.8048 [SWA]
+✅ Fold 2 Best Val Acc: 0.8048
+
+📂 Fold 3/3
+Parameters: 1,718,861
+Epoch 01/40 | Train Acc: 0.4333 | Val Acc: 0.5048
+Epoch 02/40 | Train Acc: 0.5983 | Val Acc: 0.6353
+Epoch 03/40 | Train Acc: 0.6446 | Val Acc: 0.6793
+Epoch 04/40 | Train Acc: 0.6696 | Val Acc: 0.6992
+Epoch 05/40 | Train Acc: 0.6857 | Val Acc: 0.7080
+Epoch 06/40 | Train Acc: 0.6967 | Val Acc: 0.7176
+Epoch 07/40 | Train Acc: 0.7040 | Val Acc: 0.7235
+Epoch 08/40 | Train Acc: 0.7107 | Val Acc: 0.7252
+Epoch 09/40 | Train Acc: 0.7131 | Val Acc: 0.7272
+Epoch 10/40 | Train Acc: 0.7135 | Val Acc: 0.7280
+Epoch 11/40 | Train Acc: 0.7258 | Val Acc: 0.7362
+Epoch 12/40 | Train Acc: 0.7350 | Val Acc: 0.7395
+Epoch 13/40 | Train Acc: 0.7422 | Val Acc: 0.7476
+Epoch 14/40 | Train Acc: 0.7482 | Val Acc: 0.7575
+Epoch 15/40 | Train Acc: 0.7555 | Val Acc: 0.7599
+Epoch 16/40 | Train Acc: 0.7669 | Val Acc: 0.7669
+Epoch 17/40 | Train Acc: 0.7744 | Val Acc: 0.7643
+Epoch 18/40 | Train Acc: 0.7782 | Val Acc: 0.7708
+Epoch 19/40 | Train Acc: 0.7855 | Val Acc: 0.7753
+Epoch 20/40 | Train Acc: 0.7887 | Val Acc: 0.7804
+Epoch 21/40 | Train Acc: 0.7954 | Val Acc: 0.7855
+Epoch 22/40 | Train Acc: 0.7999 | Val Acc: 0.7837
+Epoch 23/40 | Train Acc: 0.8047 | Val Acc: 0.7869
+Epoch 24/40 | Train Acc: 0.8055 | Val Acc: 0.7908
+Epoch 25/40 | Train Acc: 0.8107 | Val Acc: 0.7905
+Epoch 26/40 | Train Acc: 0.8115 | Val Acc: 0.7917 [SWA]
+Epoch 27/40 | Train Acc: 0.8119 | Val Acc: 0.7916 [SWA]
+Epoch 28/40 | Train Acc: 0.8151 | Val Acc: 0.7925 [SWA]
+Epoch 29/40 | Train Acc: 0.8150 | Val Acc: 0.7927 [SWA]
+Epoch 30/40 | Train Acc: 0.8188 | Val Acc: 0.7936 [SWA]
+Epoch 31/40 | Train Acc: 0.8194 | Val Acc: 0.7944 [SWA]
+Epoch 32/40 | Train Acc: 0.8207 | Val Acc: 0.7953 [SWA]
+Epoch 33/40 | Train Acc: 0.8241 | Val Acc: 0.7953 [SWA]
+Epoch 34/40 | Train Acc: 0.8245 | Val Acc: 0.7963 [SWA]
+Epoch 35/40 | Train Acc: 0.8258 | Val Acc: 0.7970 [SWA]
+Epoch 36/40 | Train Acc: 0.8296 | Val Acc: 0.7970 [SWA]
+Epoch 37/40 | Train Acc: 0.8336 | Val Acc: 0.7973 [SWA]
+Epoch 38/40 | Train Acc: 0.8353 | Val Acc: 0.7976 [SWA]
+Epoch 39/40 | Train Acc: 0.8354 | Val Acc: 0.7977 [SWA]
+[I 2026-02-23 18:17:20,670] Trial 5 finished with value: 0.8020999999999999 and parameters: {'n_layers': 5, 'first_layer': 896, 'shrink': 0.6912145699760576, 'dropout': 0.24199645530130814, 'lr': 0.0008970973748621451, 'wd': 7.2212261759577065e-06, 'arch_type': 'shrink'}. Best is trial 2 with value: 0.8045666666666667.
+Epoch 40/40 | Train Acc: 0.8362 | Val Acc: 0.7985 [SWA]
+✅ Fold 3 Best Val Acc: 0.7985
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.8021
+Trials Remaining: 19
+============================================================
+
+============================================================
+🔎 Trial 7/25 STARTED
+============================================================
+Arch Type: shrink
+Architecture: [1024, 889, 772]
+Dropout: 0.201 | LR: 0.00174 | WD: 0.000038
+
+📂 Fold 1/3
+Parameters: 2,419,110
+Epoch 01/40 | Train Acc: 0.6150 | Val Acc: 0.5992
+Epoch 02/40 | Train Acc: 0.6788 | Val Acc: 0.6834
+Epoch 03/40 | Train Acc: 0.7073 | Val Acc: 0.7098
+Epoch 04/40 | Train Acc: 0.7219 | Val Acc: 0.7291
+Epoch 05/40 | Train Acc: 0.7380 | Val Acc: 0.7441
+Epoch 06/40 | Train Acc: 0.7510 | Val Acc: 0.7550
+Epoch 07/40 | Train Acc: 0.7615 | Val Acc: 0.7600
+Epoch 08/40 | Train Acc: 0.7670 | Val Acc: 0.7643
+Epoch 09/40 | Train Acc: 0.7726 | Val Acc: 0.7664
+Epoch 10/40 | Train Acc: 0.7729 | Val Acc: 0.7667
+Epoch 11/40 | Train Acc: 0.7806 | Val Acc: 0.7581
+Epoch 12/40 | Train Acc: 0.7916 | Val Acc: 0.7600
+Epoch 13/40 | Train Acc: 0.8027 | Val Acc: 0.7749
+Epoch 14/40 | Train Acc: 0.8085 | Val Acc: 0.7764
+Epoch 15/40 | Train Acc: 0.8232 | Val Acc: 0.7798
+Epoch 16/40 | Train Acc: 0.8258 | Val Acc: 0.7827
+Epoch 17/40 | Train Acc: 0.8356 | Val Acc: 0.7871
+Epoch 18/40 | Train Acc: 0.8385 | Val Acc: 0.7845
+Epoch 19/40 | Train Acc: 0.8431 | Val Acc: 0.7891
+Epoch 20/40 | Train Acc: 0.8488 | Val Acc: 0.7915
+Epoch 21/40 | Train Acc: 0.8533 | Val Acc: 0.7904
+Epoch 22/40 | Train Acc: 0.8546 | Val Acc: 0.7891
+Epoch 23/40 | Train Acc: 0.8600 | Val Acc: 0.8009
+Epoch 24/40 | Train Acc: 0.8658 | Val Acc: 0.8013
+Epoch 25/40 | Train Acc: 0.8711 | Val Acc: 0.7985
+Epoch 26/40 | Train Acc: 0.8701 | Val Acc: 0.8042 [SWA]
+Epoch 27/40 | Train Acc: 0.8749 | Val Acc: 0.8056 [SWA]
+Epoch 28/40 | Train Acc: 0.8762 | Val Acc: 0.8053 [SWA]
+Epoch 29/40 | Train Acc: 0.8795 | Val Acc: 0.8058 [SWA]
+Epoch 30/40 | Train Acc: 0.8818 | Val Acc: 0.8058 [SWA]
+Epoch 31/40 | Train Acc: 0.8825 | Val Acc: 0.8059 [SWA]
+Epoch 32/40 | Train Acc: 0.8851 | Val Acc: 0.8062 [SWA]
+Epoch 33/40 | Train Acc: 0.8871 | Val Acc: 0.8069 [SWA]
+Epoch 34/40 | Train Acc: 0.8897 | Val Acc: 0.8075 [SWA]
+Epoch 35/40 | Train Acc: 0.8913 | Val Acc: 0.8079 [SWA]
+Epoch 36/40 | Train Acc: 0.8944 | Val Acc: 0.8085 [SWA]
+Epoch 37/40 | Train Acc: 0.8965 | Val Acc: 0.8081 [SWA]
+Epoch 38/40 | Train Acc: 0.8980 | Val Acc: 0.8079 [SWA]
+Epoch 39/40 | Train Acc: 0.8990 | Val Acc: 0.8085 [SWA]
+Epoch 40/40 | Train Acc: 0.9045 | Val Acc: 0.8083 [SWA]
+✅ Fold 1 Best Val Acc: 0.8085
+
+📂 Fold 2/3
+Parameters: 2,419,110
+Epoch 01/40 | Train Acc: 0.6120 | Val Acc: 0.6253
+Epoch 02/40 | Train Acc: 0.6542 | Val Acc: 0.6816
+Epoch 03/40 | Train Acc: 0.6924 | Val Acc: 0.7123
+Epoch 04/40 | Train Acc: 0.7127 | Val Acc: 0.7192
+Epoch 05/40 | Train Acc: 0.7218 | Val Acc: 0.7378
+Epoch 06/40 | Train Acc: 0.7396 | Val Acc: 0.7449
+Epoch 07/40 | Train Acc: 0.7497 | Val Acc: 0.7548
+Epoch 08/40 | Train Acc: 0.7557 | Val Acc: 0.7619
+Epoch 09/40 | Train Acc: 0.7638 | Val Acc: 0.7642
+Epoch 10/40 | Train Acc: 0.7651 | Val Acc: 0.7629
+Epoch 11/40 | Train Acc: 0.7687 | Val Acc: 0.7588
+Epoch 12/40 | Train Acc: 0.7713 | Val Acc: 0.7623
+Epoch 13/40 | Train Acc: 0.7874 | Val Acc: 0.7709
+Epoch 14/40 | Train Acc: 0.7948 | Val Acc: 0.7726
+Epoch 15/40 | Train Acc: 0.8054 | Val Acc: 0.7812
+Epoch 16/40 | Train Acc: 0.8147 | Val Acc: 0.7856
+Epoch 17/40 | Train Acc: 0.8224 | Val Acc: 0.7882
+Epoch 18/40 | Train Acc: 0.8284 | Val Acc: 0.7925
+Epoch 19/40 | Train Acc: 0.8371 | Val Acc: 0.7877
+Epoch 20/40 | Train Acc: 0.8433 | Val Acc: 0.7969
+Epoch 21/40 | Train Acc: 0.8479 | Val Acc: 0.7937
+Epoch 22/40 | Train Acc: 0.8507 | Val Acc: 0.7997
+Epoch 23/40 | Train Acc: 0.8544 | Val Acc: 0.8023
+Epoch 24/40 | Train Acc: 0.8591 | Val Acc: 0.8025
+Epoch 25/40 | Train Acc: 0.8614 | Val Acc: 0.8024
+Epoch 26/40 | Train Acc: 0.8663 | Val Acc: 0.8093 [SWA]
+Epoch 27/40 | Train Acc: 0.8686 | Val Acc: 0.8102 [SWA]
+Epoch 28/40 | Train Acc: 0.8707 | Val Acc: 0.8115 [SWA]
+Epoch 29/40 | Train Acc: 0.8737 | Val Acc: 0.8127 [SWA]
+Epoch 30/40 | Train Acc: 0.8765 | Val Acc: 0.8127 [SWA]
+Epoch 31/40 | Train Acc: 0.8777 | Val Acc: 0.8135 [SWA]
+Epoch 32/40 | Train Acc: 0.8777 | Val Acc: 0.8128 [SWA]
+Epoch 33/40 | Train Acc: 0.8799 | Val Acc: 0.8127 [SWA]
+Epoch 34/40 | Train Acc: 0.8815 | Val Acc: 0.8125 [SWA]
+Epoch 35/40 | Train Acc: 0.8857 | Val Acc: 0.8130 [SWA]
+Epoch 36/40 | Train Acc: 0.8861 | Val Acc: 0.8131 [SWA]
+Epoch 37/40 | Train Acc: 0.8880 | Val Acc: 0.8131 [SWA]
+Epoch 38/40 | Train Acc: 0.8897 | Val Acc: 0.8129 [SWA]
+⏹ Early stopping triggered
+✅ Fold 2 Best Val Acc: 0.8135
+
+📂 Fold 3/3
+Parameters: 2,419,110
+Epoch 01/40 | Train Acc: 0.6064 | Val Acc: 0.6300
+Epoch 02/40 | Train Acc: 0.6781 | Val Acc: 0.6882
+Epoch 03/40 | Train Acc: 0.7019 | Val Acc: 0.7126
+Epoch 04/40 | Train Acc: 0.7167 | Val Acc: 0.7235
+Epoch 05/40 | Train Acc: 0.7375 | Val Acc: 0.7340
+Epoch 06/40 | Train Acc: 0.7536 | Val Acc: 0.7484
+Epoch 07/40 | Train Acc: 0.7602 | Val Acc: 0.7566
+Epoch 08/40 | Train Acc: 0.7709 | Val Acc: 0.7601
+Epoch 09/40 | Train Acc: 0.7750 | Val Acc: 0.7678
+Epoch 10/40 | Train Acc: 0.7782 | Val Acc: 0.7689
+Epoch 11/40 | Train Acc: 0.7743 | Val Acc: 0.7551
+Epoch 12/40 | Train Acc: 0.7825 | Val Acc: 0.7579
+Epoch 13/40 | Train Acc: 0.7946 | Val Acc: 0.7618
+Epoch 14/40 | Train Acc: 0.8032 | Val Acc: 0.7760
+Epoch 15/40 | Train Acc: 0.8154 | Val Acc: 0.7762
+Epoch 16/40 | Train Acc: 0.8204 | Val Acc: 0.7785
+Epoch 17/40 | Train Acc: 0.8242 | Val Acc: 0.7860
+Epoch 18/40 | Train Acc: 0.8347 | Val Acc: 0.7875
+Epoch 19/40 | Train Acc: 0.8448 | Val Acc: 0.7883
+Epoch 20/40 | Train Acc: 0.8508 | Val Acc: 0.7965
+Epoch 21/40 | Train Acc: 0.8516 | Val Acc: 0.7960
+Epoch 22/40 | Train Acc: 0.8611 | Val Acc: 0.8008
+Epoch 23/40 | Train Acc: 0.8653 | Val Acc: 0.7982
+Epoch 24/40 | Train Acc: 0.8657 | Val Acc: 0.7996
+Epoch 25/40 | Train Acc: 0.8711 | Val Acc: 0.8008
+Epoch 26/40 | Train Acc: 0.8693 | Val Acc: 0.8032 [SWA]
+Epoch 27/40 | Train Acc: 0.8748 | Val Acc: 0.8037 [SWA]
+Epoch 28/40 | Train Acc: 0.8773 | Val Acc: 0.8052 [SWA]
+Epoch 29/40 | Train Acc: 0.8797 | Val Acc: 0.8064 [SWA]
+Epoch 30/40 | Train Acc: 0.8813 | Val Acc: 0.8066 [SWA]
+Epoch 31/40 | Train Acc: 0.8815 | Val Acc: 0.8073 [SWA]
+Epoch 32/40 | Train Acc: 0.8833 | Val Acc: 0.8071 [SWA]
+Epoch 33/40 | Train Acc: 0.8844 | Val Acc: 0.8073 [SWA]
+Epoch 34/40 | Train Acc: 0.8846 | Val Acc: 0.8078 [SWA]
+Epoch 35/40 | Train Acc: 0.8913 | Val Acc: 0.8081 [SWA]
+Epoch 36/40 | Train Acc: 0.8912 | Val Acc: 0.8086 [SWA]
+Epoch 37/40 | Train Acc: 0.8943 | Val Acc: 0.8085 [SWA]
+Epoch 38/40 | Train Acc: 0.8967 | Val Acc: 0.8085 [SWA]
+Epoch 39/40 | Train Acc: 0.8973 | Val Acc: 0.8087 [SWA]
+[I 2026-02-23 18:27:35,549] Trial 6 finished with value: 0.8102499999999999 and parameters: {'n_layers': 3, 'first_layer': 1024, 'shrink': 0.868613763795459, 'dropout': 0.20120846263747427, 'lr': 0.0017359892100159526, 'wd': 3.829647628837769e-05, 'arch_type': 'shrink'}. Best is trial 6 with value: 0.8102499999999999.
+Epoch 40/40 | Train Acc: 0.8985 | Val Acc: 0.8085 [SWA]
+✅ Fold 3 Best Val Acc: 0.8087
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.8102
+Trials Remaining: 18
+============================================================
+
+============================================================
+🔎 Trial 8/25 STARTED
+============================================================
+Arch Type: shrink
+Architecture: [768, 632, 520]
+Dropout: 0.210 | LR: 0.00204 | WD: 0.000211
+
+📂 Fold 1/3
+Parameters: 1,429,703
+Epoch 01/40 | Train Acc: 0.5883 | Val Acc: 0.5593
+Epoch 02/40 | Train Acc: 0.6697 | Val Acc: 0.6762
+Epoch 03/40 | Train Acc: 0.6953 | Val Acc: 0.7154
+Epoch 04/40 | Train Acc: 0.7167 | Val Acc: 0.7319
+Epoch 05/40 | Train Acc: 0.7318 | Val Acc: 0.7403
+Epoch 06/40 | Train Acc: 0.7410 | Val Acc: 0.7416
+Epoch 07/40 | Train Acc: 0.7445 | Val Acc: 0.7540
+Epoch 08/40 | Train Acc: 0.7539 | Val Acc: 0.7582
+Epoch 09/40 | Train Acc: 0.7592 | Val Acc: 0.7603
+Epoch 10/40 | Train Acc: 0.7614 | Val Acc: 0.7631
+Epoch 11/40 | Train Acc: 0.7644 | Val Acc: 0.7605
+Epoch 12/40 | Train Acc: 0.7790 | Val Acc: 0.7637
+Epoch 13/40 | Train Acc: 0.7854 | Val Acc: 0.7724
+Epoch 14/40 | Train Acc: 0.7952 | Val Acc: 0.7643
+Epoch 15/40 | Train Acc: 0.7993 | Val Acc: 0.7747
+Epoch 16/40 | Train Acc: 0.8094 | Val Acc: 0.7791
+Epoch 17/40 | Train Acc: 0.8178 | Val Acc: 0.7851
+Epoch 18/40 | Train Acc: 0.8179 | Val Acc: 0.7893
+Epoch 19/40 | Train Acc: 0.8263 | Val Acc: 0.7953
+Epoch 20/40 | Train Acc: 0.8317 | Val Acc: 0.7913
+Epoch 21/40 | Train Acc: 0.8374 | Val Acc: 0.7995
+Epoch 22/40 | Train Acc: 0.8431 | Val Acc: 0.7997
+Epoch 23/40 | Train Acc: 0.8467 | Val Acc: 0.7954
+Epoch 24/40 | Train Acc: 0.8457 | Val Acc: 0.7998
+Epoch 25/40 | Train Acc: 0.8518 | Val Acc: 0.8040
+Epoch 26/40 | Train Acc: 0.8525 | Val Acc: 0.8060 [SWA]
+Epoch 27/40 | Train Acc: 0.8543 | Val Acc: 0.8069 [SWA]
+Epoch 28/40 | Train Acc: 0.8554 | Val Acc: 0.8065 [SWA]
+Epoch 29/40 | Train Acc: 0.8597 | Val Acc: 0.8071 [SWA]
+Epoch 30/40 | Train Acc: 0.8598 | Val Acc: 0.8072 [SWA]
+Epoch 31/40 | Train Acc: 0.8630 | Val Acc: 0.8069 [SWA]
+Epoch 32/40 | Train Acc: 0.8659 | Val Acc: 0.8074 [SWA]
+Epoch 33/40 | Train Acc: 0.8694 | Val Acc: 0.8082 [SWA]
+Epoch 34/40 | Train Acc: 0.8688 | Val Acc: 0.8080 [SWA]
+Epoch 35/40 | Train Acc: 0.8696 | Val Acc: 0.8083 [SWA]
+Epoch 36/40 | Train Acc: 0.8726 | Val Acc: 0.8082 [SWA]
+Epoch 37/40 | Train Acc: 0.8735 | Val Acc: 0.8087 [SWA]
+Epoch 38/40 | Train Acc: 0.8761 | Val Acc: 0.8087 [SWA]
+Epoch 39/40 | Train Acc: 0.8795 | Val Acc: 0.8093 [SWA]
+Epoch 40/40 | Train Acc: 0.8803 | Val Acc: 0.8096 [SWA]
+✅ Fold 1 Best Val Acc: 0.8096
+
+📂 Fold 2/3
+Parameters: 1,429,703
+Epoch 01/40 | Train Acc: 0.5931 | Val Acc: 0.5875
+Epoch 02/40 | Train Acc: 0.6654 | Val Acc: 0.6676
+Epoch 03/40 | Train Acc: 0.6773 | Val Acc: 0.6993
+Epoch 04/40 | Train Acc: 0.7029 | Val Acc: 0.7161
+Epoch 05/40 | Train Acc: 0.7168 | Val Acc: 0.7264
+Epoch 06/40 | Train Acc: 0.7249 | Val Acc: 0.7345
+Epoch 07/40 | Train Acc: 0.7389 | Val Acc: 0.7458
+Epoch 08/40 | Train Acc: 0.7436 | Val Acc: 0.7494
+Epoch 09/40 | Train Acc: 0.7510 | Val Acc: 0.7509
+Epoch 10/40 | Train Acc: 0.7515 | Val Acc: 0.7535
+Epoch 11/40 | Train Acc: 0.7618 | Val Acc: 0.7571
+Epoch 12/40 | Train Acc: 0.7684 | Val Acc: 0.7480
+Epoch 13/40 | Train Acc: 0.7738 | Val Acc: 0.7648
+Epoch 14/40 | Train Acc: 0.7850 | Val Acc: 0.7729
+Epoch 15/40 | Train Acc: 0.7893 | Val Acc: 0.7773
+Epoch 16/40 | Train Acc: 0.8025 | Val Acc: 0.7833
+Epoch 17/40 | Train Acc: 0.8086 | Val Acc: 0.7852
+Epoch 18/40 | Train Acc: 0.8173 | Val Acc: 0.7933
+Epoch 19/40 | Train Acc: 0.8229 | Val Acc: 0.7924
+Epoch 20/40 | Train Acc: 0.8263 | Val Acc: 0.7912
+Epoch 21/40 | Train Acc: 0.8305 | Val Acc: 0.7949
+Epoch 22/40 | Train Acc: 0.8353 | Val Acc: 0.8014
+Epoch 23/40 | Train Acc: 0.8386 | Val Acc: 0.7955
+Epoch 24/40 | Train Acc: 0.8417 | Val Acc: 0.7985
+Epoch 25/40 | Train Acc: 0.8441 | Val Acc: 0.8010
+Epoch 26/40 | Train Acc: 0.8496 | Val Acc: 0.8064 [SWA]
+Epoch 27/40 | Train Acc: 0.8481 | Val Acc: 0.8060 [SWA]
+Epoch 28/40 | Train Acc: 0.8522 | Val Acc: 0.8076 [SWA]
+Epoch 29/40 | Train Acc: 0.8518 | Val Acc: 0.8081 [SWA]
+Epoch 30/40 | Train Acc: 0.8554 | Val Acc: 0.8085 [SWA]
+Epoch 31/40 | Train Acc: 0.8575 | Val Acc: 0.8095 [SWA]
+Epoch 32/40 | Train Acc: 0.8571 | Val Acc: 0.8096 [SWA]
+Epoch 33/40 | Train Acc: 0.8637 | Val Acc: 0.8101 [SWA]
+Epoch 34/40 | Train Acc: 0.8649 | Val Acc: 0.8102 [SWA]
+Epoch 35/40 | Train Acc: 0.8660 | Val Acc: 0.8101 [SWA]
+Epoch 36/40 | Train Acc: 0.8696 | Val Acc: 0.8105 [SWA]
+Epoch 37/40 | Train Acc: 0.8690 | Val Acc: 0.8109 [SWA]
+Epoch 38/40 | Train Acc: 0.8725 | Val Acc: 0.8114 [SWA]
+Epoch 39/40 | Train Acc: 0.8718 | Val Acc: 0.8113 [SWA]
+Epoch 40/40 | Train Acc: 0.8733 | Val Acc: 0.8108 [SWA]
+✅ Fold 2 Best Val Acc: 0.8114
+
+📂 Fold 3/3
+Parameters: 1,429,703
+Epoch 01/40 | Train Acc: 0.5954 | Val Acc: 0.5677
+Epoch 02/40 | Train Acc: 0.6659 | Val Acc: 0.6736
+Epoch 03/40 | Train Acc: 0.6881 | Val Acc: 0.7030
+Epoch 04/40 | Train Acc: 0.7094 | Val Acc: 0.7210
+Epoch 05/40 | Train Acc: 0.7259 | Val Acc: 0.7308
+Epoch 06/40 | Train Acc: 0.7337 | Val Acc: 0.7382
+Epoch 07/40 | Train Acc: 0.7454 | Val Acc: 0.7453
+Epoch 08/40 | Train Acc: 0.7510 | Val Acc: 0.7489
+Epoch 09/40 | Train Acc: 0.7573 | Val Acc: 0.7534
+Epoch 10/40 | Train Acc: 0.7578 | Val Acc: 0.7544
+Epoch 11/40 | Train Acc: 0.7645 | Val Acc: 0.7556
+Epoch 12/40 | Train Acc: 0.7749 | Val Acc: 0.7618
+Epoch 13/40 | Train Acc: 0.7818 | Val Acc: 0.7726
+Epoch 14/40 | Train Acc: 0.7907 | Val Acc: 0.7681
+Epoch 15/40 | Train Acc: 0.7988 | Val Acc: 0.7747
+Epoch 16/40 | Train Acc: 0.8061 | Val Acc: 0.7828
+Epoch 17/40 | Train Acc: 0.8162 | Val Acc: 0.7855
+Epoch 18/40 | Train Acc: 0.8198 | Val Acc: 0.7867
+Epoch 19/40 | Train Acc: 0.8291 | Val Acc: 0.7785
+Epoch 20/40 | Train Acc: 0.8297 | Val Acc: 0.7887
+Epoch 21/40 | Train Acc: 0.8343 | Val Acc: 0.7918
+Epoch 22/40 | Train Acc: 0.8372 | Val Acc: 0.7951
+Epoch 23/40 | Train Acc: 0.8453 | Val Acc: 0.7989
+Epoch 24/40 | Train Acc: 0.8475 | Val Acc: 0.8006
+Epoch 25/40 | Train Acc: 0.8517 | Val Acc: 0.8006
+Epoch 26/40 | Train Acc: 0.8531 | Val Acc: 0.8033 [SWA]
+Epoch 27/40 | Train Acc: 0.8524 | Val Acc: 0.8038 [SWA]
+Epoch 28/40 | Train Acc: 0.8572 | Val Acc: 0.8041 [SWA]
+Epoch 29/40 | Train Acc: 0.8577 | Val Acc: 0.8050 [SWA]
+Epoch 30/40 | Train Acc: 0.8583 | Val Acc: 0.8051 [SWA]
+Epoch 31/40 | Train Acc: 0.8617 | Val Acc: 0.8062 [SWA]
+Epoch 32/40 | Train Acc: 0.8641 | Val Acc: 0.8070 [SWA]
+Epoch 33/40 | Train Acc: 0.8670 | Val Acc: 0.8073 [SWA]
+Epoch 34/40 | Train Acc: 0.8692 | Val Acc: 0.8076 [SWA]
+Epoch 35/40 | Train Acc: 0.8703 | Val Acc: 0.8075 [SWA]
+Epoch 36/40 | Train Acc: 0.8701 | Val Acc: 0.8073 [SWA]
+Epoch 37/40 | Train Acc: 0.8721 | Val Acc: 0.8075 [SWA]
+Epoch 38/40 | Train Acc: 0.8754 | Val Acc: 0.8072 [SWA]
+Epoch 39/40 | Train Acc: 0.8763 | Val Acc: 0.8076 [SWA]
+[I 2026-02-23 18:37:35,567] Trial 7 finished with value: 0.8095666666666667 and parameters: {'n_layers': 3, 'first_layer': 768, 'shrink': 0.8233591218624283, 'dropout': 0.2099616633717055, 'lr': 0.002040518775132886, 'wd': 0.00021099460877351166, 'arch_type': 'shrink'}. Best is trial 6 with value: 0.8102499999999999.
+Epoch 40/40 | Train Acc: 0.8803 | Val Acc: 0.8076 [SWA]
+✅ Fold 3 Best Val Acc: 0.8076
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.8096
+Trials Remaining: 17
+============================================================
+
+============================================================
+🔎 Trial 9/25 STARTED
+============================================================
+Arch Type: shrink
+Architecture: [512, 375, 275, 202]
+Dropout: 0.465 | LR: 0.00082 | WD: 0.000013
+
+📂 Fold 1/3
+Parameters: 759,220
+Epoch 01/40 | Train Acc: 0.2485 | Val Acc: 0.4267
+Epoch 02/40 | Train Acc: 0.4366 | Val Acc: 0.5410
+Epoch 03/40 | Train Acc: 0.5171 | Val Acc: 0.5973
+Epoch 04/40 | Train Acc: 0.5587 | Val Acc: 0.6208
+Epoch 05/40 | Train Acc: 0.5785 | Val Acc: 0.6370
+Epoch 06/40 | Train Acc: 0.5916 | Val Acc: 0.6474
+Epoch 07/40 | Train Acc: 0.6005 | Val Acc: 0.6512
+Epoch 08/40 | Train Acc: 0.6082 | Val Acc: 0.6548
+Epoch 09/40 | Train Acc: 0.6102 | Val Acc: 0.6555
+Epoch 10/40 | Train Acc: 0.6098 | Val Acc: 0.6570
+Epoch 11/40 | Train Acc: 0.6199 | Val Acc: 0.6736
+Epoch 12/40 | Train Acc: 0.6330 | Val Acc: 0.6862
+Epoch 13/40 | Train Acc: 0.6451 | Val Acc: 0.6914
+Epoch 14/40 | Train Acc: 0.6523 | Val Acc: 0.6974
+Epoch 15/40 | Train Acc: 0.6562 | Val Acc: 0.7029
+Epoch 16/40 | Train Acc: 0.6633 | Val Acc: 0.7073
+Epoch 17/40 | Train Acc: 0.6717 | Val Acc: 0.7138
+Epoch 18/40 | Train Acc: 0.6787 | Val Acc: 0.7127
+Epoch 19/40 | Train Acc: 0.6755 | Val Acc: 0.7157
+Epoch 20/40 | Train Acc: 0.6835 | Val Acc: 0.7211
+Epoch 21/40 | Train Acc: 0.6872 | Val Acc: 0.7229
+Epoch 22/40 | Train Acc: 0.6877 | Val Acc: 0.7244
+Epoch 23/40 | Train Acc: 0.6911 | Val Acc: 0.7261
+Epoch 24/40 | Train Acc: 0.6885 | Val Acc: 0.7259
+Epoch 25/40 | Train Acc: 0.6914 | Val Acc: 0.7273
+Epoch 26/40 | Train Acc: 0.6946 | Val Acc: 0.7276 [SWA]
+Epoch 27/40 | Train Acc: 0.6938 | Val Acc: 0.7281 [SWA]
+Epoch 28/40 | Train Acc: 0.6955 | Val Acc: 0.7290 [SWA]
+Epoch 29/40 | Train Acc: 0.7006 | Val Acc: 0.7299 [SWA]
+Epoch 30/40 | Train Acc: 0.7000 | Val Acc: 0.7306 [SWA]
+Epoch 31/40 | Train Acc: 0.6996 | Val Acc: 0.7313 [SWA]
+Epoch 32/40 | Train Acc: 0.7036 | Val Acc: 0.7322 [SWA]
+Epoch 33/40 | Train Acc: 0.7070 | Val Acc: 0.7328 [SWA]
+Epoch 34/40 | Train Acc: 0.7053 | Val Acc: 0.7340 [SWA]
+Epoch 35/40 | Train Acc: 0.7075 | Val Acc: 0.7346 [SWA]
+Epoch 36/40 | Train Acc: 0.7042 | Val Acc: 0.7347 [SWA]
+Epoch 37/40 | Train Acc: 0.7094 | Val Acc: 0.7356 [SWA]
+Epoch 38/40 | Train Acc: 0.7107 | Val Acc: 0.7360 [SWA]
+Epoch 39/40 | Train Acc: 0.7095 | Val Acc: 0.7369 [SWA]
+Epoch 40/40 | Train Acc: 0.7118 | Val Acc: 0.7375 [SWA]
+✅ Fold 1 Best Val Acc: 0.7375
+
+📂 Fold 2/3
+Parameters: 759,220
+Epoch 01/40 | Train Acc: 0.2446 | Val Acc: 0.4287
+Epoch 02/40 | Train Acc: 0.4380 | Val Acc: 0.5438
+Epoch 03/40 | Train Acc: 0.5184 | Val Acc: 0.6073
+Epoch 04/40 | Train Acc: 0.5610 | Val Acc: 0.6329
+Epoch 05/40 | Train Acc: 0.5824 | Val Acc: 0.6486
+Epoch 06/40 | Train Acc: 0.5950 | Val Acc: 0.6564
+Epoch 07/40 | Train Acc: 0.6042 | Val Acc: 0.6623
+Epoch 08/40 | Train Acc: 0.6056 | Val Acc: 0.6653
+Epoch 09/40 | Train Acc: 0.6096 | Val Acc: 0.6660
+Epoch 10/40 | Train Acc: 0.6089 | Val Acc: 0.6662
+Epoch 11/40 | Train Acc: 0.6183 | Val Acc: 0.6805
+Epoch 12/40 | Train Acc: 0.6294 | Val Acc: 0.6859
+Epoch 13/40 | Train Acc: 0.6392 | Val Acc: 0.6943
+Epoch 14/40 | Train Acc: 0.6488 | Val Acc: 0.6998
+Epoch 15/40 | Train Acc: 0.6559 | Val Acc: 0.7024
+Epoch 16/40 | Train Acc: 0.6581 | Val Acc: 0.7074
+Epoch 17/40 | Train Acc: 0.6642 | Val Acc: 0.7101
+Epoch 18/40 | Train Acc: 0.6694 | Val Acc: 0.7142
+Epoch 19/40 | Train Acc: 0.6754 | Val Acc: 0.7182
+Epoch 20/40 | Train Acc: 0.6794 | Val Acc: 0.7213
+Epoch 21/40 | Train Acc: 0.6800 | Val Acc: 0.7224
+Epoch 22/40 | Train Acc: 0.6804 | Val Acc: 0.7256
+Epoch 23/40 | Train Acc: 0.6847 | Val Acc: 0.7280
+Epoch 24/40 | Train Acc: 0.6895 | Val Acc: 0.7286
+Epoch 25/40 | Train Acc: 0.6895 | Val Acc: 0.7299
+Epoch 26/40 | Train Acc: 0.6895 | Val Acc: 0.7312 [SWA]
+Epoch 27/40 | Train Acc: 0.6927 | Val Acc: 0.7319 [SWA]
+Epoch 28/40 | Train Acc: 0.6931 | Val Acc: 0.7313 [SWA]
+Epoch 29/40 | Train Acc: 0.6957 | Val Acc: 0.7322 [SWA]
+Epoch 30/40 | Train Acc: 0.6940 | Val Acc: 0.7329 [SWA]
+Epoch 31/40 | Train Acc: 0.6956 | Val Acc: 0.7333 [SWA]
+Epoch 32/40 | Train Acc: 0.6980 | Val Acc: 0.7341 [SWA]
+Epoch 33/40 | Train Acc: 0.6975 | Val Acc: 0.7349 [SWA]
+Epoch 34/40 | Train Acc: 0.7015 | Val Acc: 0.7351 [SWA]
+Epoch 35/40 | Train Acc: 0.7053 | Val Acc: 0.7358 [SWA]
+Epoch 36/40 | Train Acc: 0.7012 | Val Acc: 0.7361 [SWA]
+Epoch 37/40 | Train Acc: 0.7053 | Val Acc: 0.7370 [SWA]
+Epoch 38/40 | Train Acc: 0.7049 | Val Acc: 0.7380 [SWA]
+Epoch 39/40 | Train Acc: 0.7077 | Val Acc: 0.7382 [SWA]
+Epoch 40/40 | Train Acc: 0.7096 | Val Acc: 0.7385 [SWA]
+✅ Fold 2 Best Val Acc: 0.7385
+
+📂 Fold 3/3
+Parameters: 759,220
+Epoch 01/40 | Train Acc: 0.2366 | Val Acc: 0.3409
+Epoch 02/40 | Train Acc: 0.4296 | Val Acc: 0.5267
+Epoch 03/40 | Train Acc: 0.5180 | Val Acc: 0.6113
+Epoch 04/40 | Train Acc: 0.5636 | Val Acc: 0.6363
+Epoch 05/40 | Train Acc: 0.5868 | Val Acc: 0.6471
+Epoch 06/40 | Train Acc: 0.5935 | Val Acc: 0.6557
+Epoch 07/40 | Train Acc: 0.6068 | Val Acc: 0.6626
+Epoch 08/40 | Train Acc: 0.6115 | Val Acc: 0.6638
+Epoch 09/40 | Train Acc: 0.6118 | Val Acc: 0.6653
+Epoch 10/40 | Train Acc: 0.6151 | Val Acc: 0.6653
+Epoch 11/40 | Train Acc: 0.6233 | Val Acc: 0.6792
+Epoch 12/40 | Train Acc: 0.6359 | Val Acc: 0.6869
+Epoch 13/40 | Train Acc: 0.6473 | Val Acc: 0.6905
+Epoch 14/40 | Train Acc: 0.6513 | Val Acc: 0.6948
+Epoch 15/40 | Train Acc: 0.6548 | Val Acc: 0.6976
+Epoch 16/40 | Train Acc: 0.6610 | Val Acc: 0.7002
+Epoch 17/40 | Train Acc: 0.6654 | Val Acc: 0.7052
+Epoch 18/40 | Train Acc: 0.6707 | Val Acc: 0.7103
+Epoch 19/40 | Train Acc: 0.6752 | Val Acc: 0.7144
+Epoch 20/40 | Train Acc: 0.6803 | Val Acc: 0.7168
+Epoch 21/40 | Train Acc: 0.6836 | Val Acc: 0.7208
+Epoch 22/40 | Train Acc: 0.6882 | Val Acc: 0.7216
+Epoch 23/40 | Train Acc: 0.6879 | Val Acc: 0.7225
+Epoch 24/40 | Train Acc: 0.6893 | Val Acc: 0.7241
+Epoch 25/40 | Train Acc: 0.6894 | Val Acc: 0.7246
+Epoch 26/40 | Train Acc: 0.6902 | Val Acc: 0.7259 [SWA]
+Epoch 27/40 | Train Acc: 0.6933 | Val Acc: 0.7272 [SWA]
+Epoch 28/40 | Train Acc: 0.6950 | Val Acc: 0.7269 [SWA]
+Epoch 29/40 | Train Acc: 0.6934 | Val Acc: 0.7270 [SWA]
+Epoch 30/40 | Train Acc: 0.6937 | Val Acc: 0.7272 [SWA]
+Epoch 31/40 | Train Acc: 0.6957 | Val Acc: 0.7280 [SWA]
+Epoch 32/40 | Train Acc: 0.6955 | Val Acc: 0.7292 [SWA]
+Epoch 33/40 | Train Acc: 0.6997 | Val Acc: 0.7299 [SWA]
+Epoch 34/40 | Train Acc: 0.7000 | Val Acc: 0.7305 [SWA]
+Epoch 35/40 | Train Acc: 0.7032 | Val Acc: 0.7318 [SWA]
+Epoch 36/40 | Train Acc: 0.7033 | Val Acc: 0.7326 [SWA]
+Epoch 37/40 | Train Acc: 0.7071 | Val Acc: 0.7325 [SWA]
+Epoch 38/40 | Train Acc: 0.7063 | Val Acc: 0.7329 [SWA]
+Epoch 39/40 | Train Acc: 0.7079 | Val Acc: 0.7343 [SWA]
+[I 2026-02-23 18:47:17,683] Trial 8 finished with value: 0.7370833333333334 and parameters: {'n_layers': 4, 'first_layer': 512, 'shrink': 0.734136319890023, 'dropout': 0.46510338210489255, 'lr': 0.0008150663839879168, 'wd': 1.2515597929291286e-05, 'arch_type': 'shrink'}. Best is trial 6 with value: 0.8102499999999999.
+Epoch 40/40 | Train Acc: 0.7098 | Val Acc: 0.7353 [SWA]
+✅ Fold 3 Best Val Acc: 0.7353
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.7371
+Trials Remaining: 16
+============================================================
+
+============================================================
+🔎 Trial 10/25 STARTED
+============================================================
+Arch Type: hourglass
+Architecture: [768, 768]
+Dropout: 0.420 | LR: 0.00130 | WD: 0.000003
+
+📂 Fold 1/3
+Parameters: 1,208,079
+Epoch 01/40 | Train Acc: 0.5385 | Val Acc: 0.5865
+Epoch 02/40 | Train Acc: 0.6333 | Val Acc: 0.6629
+Epoch 03/40 | Train Acc: 0.6616 | Val Acc: 0.6930
+Epoch 04/40 | Train Acc: 0.6754 | Val Acc: 0.7079
+Epoch 05/40 | Train Acc: 0.6860 | Val Acc: 0.7106
+Epoch 06/40 | Train Acc: 0.6951 | Val Acc: 0.7205
+Epoch 07/40 | Train Acc: 0.6984 | Val Acc: 0.7209
+Epoch 08/40 | Train Acc: 0.7065 | Val Acc: 0.7268
+Epoch 09/40 | Train Acc: 0.7078 | Val Acc: 0.7283
+Epoch 10/40 | Train Acc: 0.7107 | Val Acc: 0.7283
+Epoch 11/40 | Train Acc: 0.7136 | Val Acc: 0.7349
+Epoch 12/40 | Train Acc: 0.7199 | Val Acc: 0.7330
+Epoch 13/40 | Train Acc: 0.7302 | Val Acc: 0.7482
+Epoch 14/40 | Train Acc: 0.7383 | Val Acc: 0.7558
+Epoch 15/40 | Train Acc: 0.7468 | Val Acc: 0.7569
+Epoch 16/40 | Train Acc: 0.7499 | Val Acc: 0.7597
+Epoch 17/40 | Train Acc: 0.7573 | Val Acc: 0.7611
+Epoch 18/40 | Train Acc: 0.7633 | Val Acc: 0.7697
+Epoch 19/40 | Train Acc: 0.7654 | Val Acc: 0.7720
+Epoch 20/40 | Train Acc: 0.7711 | Val Acc: 0.7730
+Epoch 21/40 | Train Acc: 0.7742 | Val Acc: 0.7783
+Epoch 22/40 | Train Acc: 0.7779 | Val Acc: 0.7819
+Epoch 23/40 | Train Acc: 0.7798 | Val Acc: 0.7805
+Epoch 24/40 | Train Acc: 0.7801 | Val Acc: 0.7812
+Epoch 25/40 | Train Acc: 0.7832 | Val Acc: 0.7833
+Epoch 26/40 | Train Acc: 0.7834 | Val Acc: 0.7854 [SWA]
+Epoch 27/40 | Train Acc: 0.7878 | Val Acc: 0.7864 [SWA]
+Epoch 28/40 | Train Acc: 0.7892 | Val Acc: 0.7866 [SWA]
+Epoch 29/40 | Train Acc: 0.7889 | Val Acc: 0.7867 [SWA]
+Epoch 30/40 | Train Acc: 0.7893 | Val Acc: 0.7872 [SWA]
+Epoch 31/40 | Train Acc: 0.7909 | Val Acc: 0.7866 [SWA]
+Epoch 32/40 | Train Acc: 0.7919 | Val Acc: 0.7872 [SWA]
+Epoch 33/40 | Train Acc: 0.7908 | Val Acc: 0.7872 [SWA]
+Epoch 34/40 | Train Acc: 0.7972 | Val Acc: 0.7882 [SWA]
+Epoch 35/40 | Train Acc: 0.7959 | Val Acc: 0.7890 [SWA]
+Epoch 36/40 | Train Acc: 0.7990 | Val Acc: 0.7893 [SWA]
+Epoch 37/40 | Train Acc: 0.7985 | Val Acc: 0.7897 [SWA]
+Epoch 38/40 | Train Acc: 0.7986 | Val Acc: 0.7899 [SWA]
+Epoch 39/40 | Train Acc: 0.7991 | Val Acc: 0.7903 [SWA]
+Epoch 40/40 | Train Acc: 0.8043 | Val Acc: 0.7903 [SWA]
+✅ Fold 1 Best Val Acc: 0.7903
+
+📂 Fold 2/3
+Parameters: 1,208,079
+Epoch 01/40 | Train Acc: 0.5409 | Val Acc: 0.5764
+Epoch 02/40 | Train Acc: 0.6270 | Val Acc: 0.6576
+Epoch 03/40 | Train Acc: 0.6492 | Val Acc: 0.6845
+Epoch 04/40 | Train Acc: 0.6710 | Val Acc: 0.7005
+Epoch 05/40 | Train Acc: 0.6838 | Val Acc: 0.7123
+Epoch 06/40 | Train Acc: 0.6900 | Val Acc: 0.7174
+Epoch 07/40 | Train Acc: 0.6985 | Val Acc: 0.7222
+Epoch 08/40 | Train Acc: 0.7013 | Val Acc: 0.7259
+Epoch 09/40 | Train Acc: 0.7066 | Val Acc: 0.7263
+Epoch 10/40 | Train Acc: 0.7014 | Val Acc: 0.7268
+Epoch 11/40 | Train Acc: 0.7079 | Val Acc: 0.7335
+Epoch 12/40 | Train Acc: 0.7203 | Val Acc: 0.7376
+Epoch 13/40 | Train Acc: 0.7259 | Val Acc: 0.7440
+Epoch 14/40 | Train Acc: 0.7339 | Val Acc: 0.7514
+Epoch 15/40 | Train Acc: 0.7409 | Val Acc: 0.7549
+Epoch 16/40 | Train Acc: 0.7470 | Val Acc: 0.7573
+Epoch 17/40 | Train Acc: 0.7511 | Val Acc: 0.7629
+Epoch 18/40 | Train Acc: 0.7545 | Val Acc: 0.7711
+Epoch 19/40 | Train Acc: 0.7623 | Val Acc: 0.7667
+Epoch 20/40 | Train Acc: 0.7657 | Val Acc: 0.7688
+Epoch 21/40 | Train Acc: 0.7662 | Val Acc: 0.7719
+Epoch 22/40 | Train Acc: 0.7686 | Val Acc: 0.7740
+Epoch 23/40 | Train Acc: 0.7719 | Val Acc: 0.7760
+Epoch 24/40 | Train Acc: 0.7744 | Val Acc: 0.7779
+Epoch 25/40 | Train Acc: 0.7805 | Val Acc: 0.7823
+Epoch 26/40 | Train Acc: 0.7783 | Val Acc: 0.7841 [SWA]
+Epoch 27/40 | Train Acc: 0.7812 | Val Acc: 0.7847 [SWA]
+Epoch 28/40 | Train Acc: 0.7818 | Val Acc: 0.7845 [SWA]
+Epoch 29/40 | Train Acc: 0.7822 | Val Acc: 0.7842 [SWA]
+Epoch 30/40 | Train Acc: 0.7817 | Val Acc: 0.7843 [SWA]
+Epoch 31/40 | Train Acc: 0.7855 | Val Acc: 0.7843 [SWA]
+Epoch 32/40 | Train Acc: 0.7878 | Val Acc: 0.7855 [SWA]
+Epoch 33/40 | Train Acc: 0.7872 | Val Acc: 0.7863 [SWA]
+Epoch 34/40 | Train Acc: 0.7887 | Val Acc: 0.7865 [SWA]
+Epoch 35/40 | Train Acc: 0.7892 | Val Acc: 0.7876 [SWA]
+Epoch 36/40 | Train Acc: 0.7918 | Val Acc: 0.7881 [SWA]
+Epoch 37/40 | Train Acc: 0.7934 | Val Acc: 0.7893 [SWA]
+Epoch 38/40 | Train Acc: 0.7942 | Val Acc: 0.7897 [SWA]
+Epoch 39/40 | Train Acc: 0.7956 | Val Acc: 0.7905 [SWA]
+Epoch 40/40 | Train Acc: 0.7979 | Val Acc: 0.7909 [SWA]
+✅ Fold 2 Best Val Acc: 0.7909
+
+📂 Fold 3/3
+Parameters: 1,208,079
+Epoch 01/40 | Train Acc: 0.5363 | Val Acc: 0.6019
+Epoch 02/40 | Train Acc: 0.6296 | Val Acc: 0.6606
+Epoch 03/40 | Train Acc: 0.6549 | Val Acc: 0.6854
+Epoch 04/40 | Train Acc: 0.6738 | Val Acc: 0.6967
+Epoch 05/40 | Train Acc: 0.6840 | Val Acc: 0.7052
+Epoch 06/40 | Train Acc: 0.6941 | Val Acc: 0.7124
+Epoch 07/40 | Train Acc: 0.6983 | Val Acc: 0.7151
+Epoch 08/40 | Train Acc: 0.7000 | Val Acc: 0.7191
+Epoch 09/40 | Train Acc: 0.7052 | Val Acc: 0.7209
+Epoch 10/40 | Train Acc: 0.7066 | Val Acc: 0.7208
+Epoch 11/40 | Train Acc: 0.7118 | Val Acc: 0.7265
+Epoch 12/40 | Train Acc: 0.7254 | Val Acc: 0.7357
+Epoch 13/40 | Train Acc: 0.7277 | Val Acc: 0.7480
+Epoch 14/40 | Train Acc: 0.7378 | Val Acc: 0.7520
+Epoch 15/40 | Train Acc: 0.7426 | Val Acc: 0.7489
+Epoch 16/40 | Train Acc: 0.7487 | Val Acc: 0.7551
+Epoch 17/40 | Train Acc: 0.7560 | Val Acc: 0.7617
+Epoch 18/40 | Train Acc: 0.7597 | Val Acc: 0.7683
+Epoch 19/40 | Train Acc: 0.7635 | Val Acc: 0.7623
+Epoch 20/40 | Train Acc: 0.7667 | Val Acc: 0.7691
+Epoch 21/40 | Train Acc: 0.7738 | Val Acc: 0.7763
+Epoch 22/40 | Train Acc: 0.7730 | Val Acc: 0.7752
+Epoch 23/40 | Train Acc: 0.7763 | Val Acc: 0.7747
+Epoch 24/40 | Train Acc: 0.7780 | Val Acc: 0.7765
+Epoch 25/40 | Train Acc: 0.7843 | Val Acc: 0.7799
+Epoch 26/40 | Train Acc: 0.7853 | Val Acc: 0.7810 [SWA]
+Epoch 27/40 | Train Acc: 0.7872 | Val Acc: 0.7809 [SWA]
+Epoch 28/40 | Train Acc: 0.7871 | Val Acc: 0.7814 [SWA]
+Epoch 29/40 | Train Acc: 0.7859 | Val Acc: 0.7818 [SWA]
+Epoch 30/40 | Train Acc: 0.7901 | Val Acc: 0.7816 [SWA]
+Epoch 31/40 | Train Acc: 0.7912 | Val Acc: 0.7822 [SWA]
+Epoch 32/40 | Train Acc: 0.7892 | Val Acc: 0.7822 [SWA]
+Epoch 33/40 | Train Acc: 0.7928 | Val Acc: 0.7837 [SWA]
+Epoch 34/40 | Train Acc: 0.7933 | Val Acc: 0.7836 [SWA]
+Epoch 35/40 | Train Acc: 0.7956 | Val Acc: 0.7839 [SWA]
+Epoch 36/40 | Train Acc: 0.7954 | Val Acc: 0.7844 [SWA]
+Epoch 37/40 | Train Acc: 0.7957 | Val Acc: 0.7847 [SWA]
+Epoch 38/40 | Train Acc: 0.7997 | Val Acc: 0.7847 [SWA]
+Epoch 39/40 | Train Acc: 0.7996 | Val Acc: 0.7847 [SWA]
+[I 2026-02-23 18:57:02,817] Trial 9 finished with value: 0.7889166666666667 and parameters: {'n_layers': 3, 'first_layer': 768, 'shrink': 0.7849137588627033, 'dropout': 0.419773017007899, 'lr': 0.0012962904994887913, 'wd': 3.341307689283794e-06, 'arch_type': 'hourglass'}. Best is trial 6 with value: 0.8102499999999999.
+[I 2026-02-23 18:57:02,981] Trial 10 finished with value: 0.0 and parameters: {'n_layers': 6, 'first_layer': 896, 'shrink': 0.8992064646047657, 'dropout': 0.3384198651423872, 'lr': 0.0003999909706575221, 'wd': 0.0007518933597054412, 'arch_type': 'shrink'}. Best is trial 6 with value: 0.8102499999999999.
+Epoch 40/40 | Train Acc: 0.8023 | Val Acc: 0.7855 [SWA]
+✅ Fold 3 Best Val Acc: 0.7855
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.7889
+Trials Remaining: 15
+============================================================
+
+============================================================
+🔎 Trial 11/25 STARTED
+============================================================
+Arch Type: shrink
+Architecture: [896, 805, 724, 651, 585, 526]
+Dropout: 0.338 | LR: 0.00040 | WD: 0.000752
+
+📂 Fold 1/3
+Parameters: 3,186,899
+❌ Exceeds 3M parameter limit — Skipping trial
+
+============================================================
+🔎 Trial 12/25 STARTED
+============================================================
+Arch Type: shrink
+Architecture: [768, 460, 276]
+Dropout: 0.204 | LR: 0.00283 | WD: 0.000275
+
+📂 Fold 1/3
+Parameters: 1,091,019
+Epoch 01/40 | Train Acc: 0.5894 | Val Acc: 0.5583
+Epoch 02/40 | Train Acc: 0.6583 | Val Acc: 0.6650
+Epoch 03/40 | Train Acc: 0.6869 | Val Acc: 0.6987
+Epoch 04/40 | Train Acc: 0.7028 | Val Acc: 0.7200
+Epoch 05/40 | Train Acc: 0.7176 | Val Acc: 0.7263
+Epoch 06/40 | Train Acc: 0.7264 | Val Acc: 0.7377
+Epoch 07/40 | Train Acc: 0.7343 | Val Acc: 0.7434
+Epoch 08/40 | Train Acc: 0.7421 | Val Acc: 0.7483
+Epoch 09/40 | Train Acc: 0.7456 | Val Acc: 0.7492
+Epoch 10/40 | Train Acc: 0.7489 | Val Acc: 0.7511
+Epoch 11/40 | Train Acc: 0.7570 | Val Acc: 0.7477
+Epoch 12/40 | Train Acc: 0.7642 | Val Acc: 0.7530
+Epoch 13/40 | Train Acc: 0.7716 | Val Acc: 0.7631
+Epoch 14/40 | Train Acc: 0.7855 | Val Acc: 0.7754
+Epoch 15/40 | Train Acc: 0.7937 | Val Acc: 0.7739
+Epoch 16/40 | Train Acc: 0.7998 | Val Acc: 0.7781
+Epoch 17/40 | Train Acc: 0.8093 | Val Acc: 0.7733
+Epoch 18/40 | Train Acc: 0.8139 | Val Acc: 0.7705
+Epoch 19/40 | Train Acc: 0.8180 | Val Acc: 0.7808
+Epoch 20/40 | Train Acc: 0.8249 | Val Acc: 0.7904
+Epoch 21/40 | Train Acc: 0.8296 | Val Acc: 0.7913
+Epoch 22/40 | Train Acc: 0.8355 | Val Acc: 0.7946
+Epoch 23/40 | Train Acc: 0.8388 | Val Acc: 0.7934
+Epoch 24/40 | Train Acc: 0.8413 | Val Acc: 0.7987
+Epoch 25/40 | Train Acc: 0.8470 | Val Acc: 0.7990
+Epoch 26/40 | Train Acc: 0.8498 | Val Acc: 0.8020 [SWA]
+Epoch 27/40 | Train Acc: 0.8476 | Val Acc: 0.8028 [SWA]
+Epoch 28/40 | Train Acc: 0.8505 | Val Acc: 0.8038 [SWA]
+Epoch 29/40 | Train Acc: 0.8552 | Val Acc: 0.8046 [SWA]
+Epoch 30/40 | Train Acc: 0.8569 | Val Acc: 0.8048 [SWA]
+Epoch 31/40 | Train Acc: 0.8623 | Val Acc: 0.8047 [SWA]
+Epoch 32/40 | Train Acc: 0.8589 | Val Acc: 0.8050 [SWA]
+Epoch 33/40 | Train Acc: 0.8627 | Val Acc: 0.8055 [SWA]
+Epoch 34/40 | Train Acc: 0.8648 | Val Acc: 0.8056 [SWA]
+Epoch 35/40 | Train Acc: 0.8676 | Val Acc: 0.8057 [SWA]
+Epoch 36/40 | Train Acc: 0.8659 | Val Acc: 0.8065 [SWA]
+Epoch 37/40 | Train Acc: 0.8685 | Val Acc: 0.8066 [SWA]
+Epoch 38/40 | Train Acc: 0.8689 | Val Acc: 0.8067 [SWA]
+Epoch 39/40 | Train Acc: 0.8716 | Val Acc: 0.8071 [SWA]
+Epoch 40/40 | Train Acc: 0.8725 | Val Acc: 0.8071 [SWA]
+✅ Fold 1 Best Val Acc: 0.8071
+
+📂 Fold 2/3
+Parameters: 1,091,019
+Epoch 01/40 | Train Acc: 0.5906 | Val Acc: 0.5724
+Epoch 02/40 | Train Acc: 0.6615 | Val Acc: 0.6873
+Epoch 03/40 | Train Acc: 0.6836 | Val Acc: 0.7109
+Epoch 04/40 | Train Acc: 0.7033 | Val Acc: 0.7231
+Epoch 05/40 | Train Acc: 0.7203 | Val Acc: 0.7341
+Epoch 06/40 | Train Acc: 0.7344 | Val Acc: 0.7440
+Epoch 07/40 | Train Acc: 0.7396 | Val Acc: 0.7496
+Epoch 08/40 | Train Acc: 0.7475 | Val Acc: 0.7547
+Epoch 09/40 | Train Acc: 0.7508 | Val Acc: 0.7562
+Epoch 10/40 | Train Acc: 0.7526 | Val Acc: 0.7574
+Epoch 11/40 | Train Acc: 0.7612 | Val Acc: 0.7570
+Epoch 12/40 | Train Acc: 0.7705 | Val Acc: 0.7634
+Epoch 13/40 | Train Acc: 0.7774 | Val Acc: 0.7680
+Epoch 14/40 | Train Acc: 0.7852 | Val Acc: 0.7710
+Epoch 15/40 | Train Acc: 0.7965 | Val Acc: 0.7722
+Epoch 16/40 | Train Acc: 0.8022 | Val Acc: 0.7845
+Epoch 17/40 | Train Acc: 0.8095 | Val Acc: 0.7825
+Epoch 18/40 | Train Acc: 0.8126 | Val Acc: 0.7846
+Epoch 19/40 | Train Acc: 0.8171 | Val Acc: 0.7847
+Epoch 20/40 | Train Acc: 0.8245 | Val Acc: 0.7970
+Epoch 21/40 | Train Acc: 0.8346 | Val Acc: 0.7954
+Epoch 22/40 | Train Acc: 0.8364 | Val Acc: 0.7976
+Epoch 23/40 | Train Acc: 0.8416 | Val Acc: 0.8018
+Epoch 24/40 | Train Acc: 0.8440 | Val Acc: 0.8018
+Epoch 25/40 | Train Acc: 0.8482 | Val Acc: 0.8059
+Epoch 26/40 | Train Acc: 0.8490 | Val Acc: 0.8063 [SWA]
+Epoch 27/40 | Train Acc: 0.8479 | Val Acc: 0.8066 [SWA]
+Epoch 28/40 | Train Acc: 0.8527 | Val Acc: 0.8071 [SWA]
+Epoch 29/40 | Train Acc: 0.8527 | Val Acc: 0.8073 [SWA]
+Epoch 30/40 | Train Acc: 0.8547 | Val Acc: 0.8071 [SWA]
+Epoch 31/40 | Train Acc: 0.8541 | Val Acc: 0.8072 [SWA]
+Epoch 32/40 | Train Acc: 0.8571 | Val Acc: 0.8082 [SWA]
+Epoch 33/40 | Train Acc: 0.8600 | Val Acc: 0.8088 [SWA]
+Epoch 34/40 | Train Acc: 0.8620 | Val Acc: 0.8087 [SWA]
+Epoch 35/40 | Train Acc: 0.8620 | Val Acc: 0.8096 [SWA]
+Epoch 36/40 | Train Acc: 0.8665 | Val Acc: 0.8098 [SWA]
+Epoch 37/40 | Train Acc: 0.8671 | Val Acc: 0.8104 [SWA]
+Epoch 38/40 | Train Acc: 0.8676 | Val Acc: 0.8104 [SWA]
+Epoch 39/40 | Train Acc: 0.8697 | Val Acc: 0.8104 [SWA]
+Epoch 40/40 | Train Acc: 0.8727 | Val Acc: 0.8106 [SWA]
+✅ Fold 2 Best Val Acc: 0.8106
+
+📂 Fold 3/3
+Parameters: 1,091,019
+Epoch 01/40 | Train Acc: 0.5880 | Val Acc: 0.5456
+Epoch 02/40 | Train Acc: 0.6580 | Val Acc: 0.6657
+Epoch 03/40 | Train Acc: 0.6886 | Val Acc: 0.6962
+Epoch 04/40 | Train Acc: 0.7057 | Val Acc: 0.7159
+Epoch 05/40 | Train Acc: 0.7196 | Val Acc: 0.7320
+Epoch 06/40 | Train Acc: 0.7320 | Val Acc: 0.7399
+Epoch 07/40 | Train Acc: 0.7411 | Val Acc: 0.7474
+Epoch 08/40 | Train Acc: 0.7463 | Val Acc: 0.7525
+Epoch 09/40 | Train Acc: 0.7521 | Val Acc: 0.7542
+Epoch 10/40 | Train Acc: 0.7527 | Val Acc: 0.7533
+Epoch 11/40 | Train Acc: 0.7585 | Val Acc: 0.7544
+Epoch 12/40 | Train Acc: 0.7680 | Val Acc: 0.7557
+Epoch 13/40 | Train Acc: 0.7754 | Val Acc: 0.7562
+Epoch 14/40 | Train Acc: 0.7822 | Val Acc: 0.7625
+Epoch 15/40 | Train Acc: 0.7921 | Val Acc: 0.7729
+Epoch 16/40 | Train Acc: 0.8016 | Val Acc: 0.7780
+Epoch 17/40 | Train Acc: 0.8105 | Val Acc: 0.7814
+Epoch 18/40 | Train Acc: 0.8146 | Val Acc: 0.7833
+Epoch 19/40 | Train Acc: 0.8224 | Val Acc: 0.7817
+Epoch 20/40 | Train Acc: 0.8309 | Val Acc: 0.7917
+Epoch 21/40 | Train Acc: 0.8301 | Val Acc: 0.7905
+Epoch 22/40 | Train Acc: 0.8335 | Val Acc: 0.7947
+Epoch 23/40 | Train Acc: 0.8401 | Val Acc: 0.7961
+Epoch 24/40 | Train Acc: 0.8408 | Val Acc: 0.7959
+Epoch 25/40 | Train Acc: 0.8449 | Val Acc: 0.8005
+Epoch 26/40 | Train Acc: 0.8491 | Val Acc: 0.8016 [SWA]
+Epoch 27/40 | Train Acc: 0.8506 | Val Acc: 0.8021 [SWA]
+Epoch 28/40 | Train Acc: 0.8534 | Val Acc: 0.8032 [SWA]
+Epoch 29/40 | Train Acc: 0.8548 | Val Acc: 0.8038 [SWA]
+Epoch 30/40 | Train Acc: 0.8555 | Val Acc: 0.8049 [SWA]
+Epoch 31/40 | Train Acc: 0.8586 | Val Acc: 0.8051 [SWA]
+Epoch 32/40 | Train Acc: 0.8571 | Val Acc: 0.8058 [SWA]
+Epoch 33/40 | Train Acc: 0.8621 | Val Acc: 0.8061 [SWA]
+Epoch 34/40 | Train Acc: 0.8634 | Val Acc: 0.8068 [SWA]
+Epoch 35/40 | Train Acc: 0.8632 | Val Acc: 0.8066 [SWA]
+Epoch 36/40 | Train Acc: 0.8678 | Val Acc: 0.8072 [SWA]
+Epoch 37/40 | Train Acc: 0.8697 | Val Acc: 0.8075 [SWA]
+Epoch 38/40 | Train Acc: 0.8732 | Val Acc: 0.8072 [SWA]
+Epoch 39/40 | Train Acc: 0.8752 | Val Acc: 0.8076 [SWA]
+[I 2026-02-23 19:07:03,461] Trial 11 finished with value: 0.8084833333333333 and parameters: {'n_layers': 3, 'first_layer': 768, 'shrink': 0.6001083475831062, 'dropout': 0.20410200726255132, 'lr': 0.002833545617523476, 'wd': 0.0002754088811494189, 'arch_type': 'shrink'}. Best is trial 6 with value: 0.8102499999999999.
+Epoch 40/40 | Train Acc: 0.8750 | Val Acc: 0.8077 [SWA]
+✅ Fold 3 Best Val Acc: 0.8077
+
+🏁 Trial Completed
+Mean CV Accuracy: 0.8085
+Trials Remaining: 13
+============================================================
+
+============================================================
+🔎 Trial 13/25 STARTED
+============================================================
+Arch Type: shrink
+Architecture: [896, 791, 699, 618]
+Dropout: 0.229 | LR: 0.00131 | WD: 0.000168
+
+📂 Fold 1/3
+Parameters: 2,414,388
+Epoch 01/40 | Train Acc: 0.5792 | Val Acc: 0.6221

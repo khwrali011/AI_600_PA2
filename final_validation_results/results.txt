@@ -1,0 +1,21 @@
+Champion fold: 2 | Saved Val Acc: 0.8215
+Confusion matrix (normalized) saved to: confusion_matrix.png
+
+Top-2 confused pairs (true -> pred):
+- pizza -> wheel : 215
+- basketball -> soccerball : 191
+
+Details:
+PAIR: pizza -> wheel | count=215
+  mean_confidence=0.6390, median_confidence=0.6464
+  mean_margin=0.4206, median_margin=0.4313
+  saved_grid=miscls_true9_pizza_pred14_wheel.png
+
+PAIR: basketball -> soccerball | count=191
+  mean_confidence=0.6261, median_confidence=0.6542
+  mean_margin=0.4481, median_margin=0.4656
+  saved_grid=miscls_true2_basketball_pred11_soccerball.png
+
+Reverse confusion counts for top pairs:
+  wheel -> pizza : 131
+  soccerball -> basketball : 121
